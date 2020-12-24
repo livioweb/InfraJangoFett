@@ -8,6 +8,12 @@
   ignore_errors: false
   no_log: false
   tasks:
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
+        update_cache: yes
+        cache_valid_time: 86400 #One day
 
     - name: 'Docker Install'
       apt:
@@ -17,9 +23,74 @@
         state: latest
       become: yes
 
-    - name: "Updating local apt cache"
-      become: yes
-      become_user: root
-      local_action:
-        module: apt
+- hosts: app
+  pre_tasks:
+    - name: Set discovered Ansible Python interpreter.
+      set_fact:
+        ansible_python_interpreter: "/usr/bin/python3"
+      when: ansible_python_interpreter is not defined
+  ignore_errors: false
+  no_log: false
+  tasks:
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
         update_cache: yes
+        cache_valid_time: 86400 #One day
+
+    - name: 'Docker Install'
+      apt:
+        name: [
+          'docker.io','docker-compose'
+        ]
+        state: latest
+      become: yes
+
+- hosts: jenkis
+  pre_tasks:
+    - name: Set discovered Ansible Python interpreter.
+      set_fact:
+        ansible_python_interpreter: "/usr/bin/python3"
+      when: ansible_python_interpreter is not defined
+  ignore_errors: false
+  no_log: false
+  tasks:
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
+        update_cache: yes
+        cache_valid_time: 86400 #One day
+
+    - name: 'Docker Install'
+      apt:
+        name: [
+          'docker.io','docker-compose'
+        ]
+        state: latest
+      become: yes
+
+- hosts: sonarkube
+  pre_tasks:
+    - name: Set discovered Ansible Python interpreter.
+      set_fact:
+        ansible_python_interpreter: "/usr/bin/python3"
+      when: ansible_python_interpreter is not defined
+  ignore_errors: false
+  no_log: false
+  tasks:
+    - name: Update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: yes
+        update_cache: yes
+        cache_valid_time: 86400 #One day
+
+    - name: 'Docker Install'
+      apt:
+        name: [
+          'docker.io','docker-compose'
+        ]
+        state: latest
+      become: yes
