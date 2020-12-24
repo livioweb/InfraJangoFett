@@ -1,0 +1,30 @@
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "bento/ubuntu-18.04"
+
+  #config.ssh.insert_key = False
+  #config.ssh.private_key_path = "./ssh-keys/vagrant_id_rsa"
+  #config.ssh.forward_agent = true
+
+  config.vm.provider "virtualbox" do |v|
+	v.memory = 1024
+  end
+
+  config.vm.define "gitlab" do |m|
+  	m.vm.network "private_network", ip: "172.17.177.40"
+  end
+
+  config.vm.define "jenkis" do |m|
+	m.vm.network "private_network", ip: "172.17.177.42"
+  end
+
+  config.vm.define "sonarkube" do |m|
+  	m.vm.network "private_network", ip: "172.17.177.44"
+  end
+
+  config.vm.define "app" do |m|
+  	m.vm.network "private_network", ip: "172.17.177.48"
+  end
+
+end

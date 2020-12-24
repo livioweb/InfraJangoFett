@@ -1,0 +1,12 @@
+[gitlab]
+172.17.177.40 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys//vagrant_id_rsa
+
+[jenkis]
+172.17.177.42 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys/vagrant_id_rsa
+
+[sonarkube]
+172.17.177.44 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys/vagrant_id_rsa
+
+[app]
+172.17.177.48 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys/vagrant_id_rsa
+

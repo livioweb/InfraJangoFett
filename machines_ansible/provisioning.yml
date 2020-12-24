@@ -1,0 +1,25 @@
+---
+- hosts: gitlab
+  pre_tasks:
+    - name: Set discovered Ansible Python interpreter.
+      set_fact:
+        ansible_python_interpreter: "/usr/bin/python3"
+      when: ansible_python_interpreter is not defined
+  ignore_errors: false
+  no_log: false
+  tasks:
+
+    - name: 'Docker Install'
+      apt:
+        name: [
+          'docker.io','docker-compose'
+        ]
+        state: latest
+      become: yes
+
+    - name: "Updating local apt cache"
+      become: yes
+      become_user: root
+      local_action:
+        module: apt
+        update_cache: yes
