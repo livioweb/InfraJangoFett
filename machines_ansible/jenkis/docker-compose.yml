@@ -1,0 +1,28 @@
+version: '3'
+services:
+  jenkinsweb:
+#    build:
+#      context: .
+    image: jenkins/jenkins:lts
+    privileged: true
+    hostname: jenkins.pulse
+    container_name: jenkins-cicd
+    restart: always
+    user: jenkins
+    volumes:
+      - ./jenkins-maven_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/hosts:/etc/hosts:ro
+
+    environment:
+      JENKINS_HOST_HOME: "/data/jenkins"
+    ports:
+      - "9080:8080"
+      - "80:8080"
+      - "5000:5000"
+      - "50000:50000"
+
+
+#jenkins-cicd  | c7e77f5a8a844c64a2a68af8edac3c38
+#jenkins-cicd  |
+#jenkins-cicd  | This may also be found at: /var/jenkins_home/secrets/initialAdminPassword

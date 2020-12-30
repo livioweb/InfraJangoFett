@@ -1,30 +1,73 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "bento/ubuntu-18.04"
+    config.vm.box = "ubuntu/bionic64"
 
-  #config.ssh.insert_key = False
-  #config.ssh.private_key_path = "./ssh-keys/vagrant_id_rsa"
-  #config.ssh.forward_agent = true
+    #config.ssh.insert_key = False
+    #config.ssh.private_key_path = "./ssh-keys/vagrant_id_rsa"
+    #config.ssh.forward_agent = true
 
-  config.vm.provider "virtualbox" do |v|
-	v.memory = 1024
-  end
+    config.vm.provider "virtualbox" do |v|
+        v.memory = 4096
+    end
 
-  config.vm.define "gitlab" do |m|
-  	m.vm.network "private_network", ip: "172.17.177.40"
-  end
 
-  config.vm.define "jenkis" do |m|
-	m.vm.network "private_network", ip: "172.17.177.42"
-  end
+    config.vm.provision "shell", inline: <<-SHELL
+        apt-get update
+        apt-get install -y docker.io docker-compose
+        usermod -aG docker vagrant
+        timedatectl set-timezone America/Belem
+        sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+        systemctl restart sshd.service
+        git clone https://github.com/livioweb/dk_docker_manager.git /vagrant/dk
+        apt install php7.2-cli
+        chmod +x /vagrant/dk/dk
+        cp /vagrant/dk/dk /bin/dk
+    SHELL
 
-  config.vm.define "sonarkube" do |m|
-  	m.vm.network "private_network", ip: "172.17.177.44"
-  end
 
-  config.vm.define "app" do |m|
-  	m.vm.network "private_network", ip: "172.17.177.48"
-  end
+    config.vm.define "gitlab" do |gitlab|
+        gitlab.vm.box = "ubuntu/bionic64"
+        gitlab.vm.provider :virtualbox do |vb|
+                vb.customize ["modifyvm", :id, "--memory", "4096"]
+                vb.customize ["modifyvm", :id, "--cpus", "4"]
+        end
+        gitlab.vm.network "private_network", ip: "172.17.177.40"
+        gitlab.vm.hostname = "gitlab"
+        gitlab.vm.synced_folder "gitlab/", "/home/vagrant/gitlab"
+        gitlab.vm.provision "shell", path: "gitlab/script.sh"
+        gitlab.vm.box_url = "gitlab/gitlab.box"
+
+    end
+
+    config.vm.define "jenkis" do |jenkis|
+        jenkis.vm.network "private_network", ip: "172.17.177.42"
+        jenkis.vm.hostname = "jenkis"
+        jenkis.vm.synced_folder "jenkis/", "/home/vagrant/jenkis"
+        jenkis.vm.provision "shell", path: "jenkis/script.sh"
+        jenkis.vm.box_url = "jenkis/jenkis.box"
+
+    end
+
+    config.vm.define "sonarkube" do |sonarkube|
+        sonarkube.vm.network "private_network", ip: "172.17.177.44"
+        sonarkube.vm.hostname = "sonarkube"
+        sonarkube.vm.synced_folder "sonarkube/", "/home/vagrant/sonarkube"
+        sonarkube.vm.provision "shell", path: "sonarkube/script.sh"
+        sonarkube.vm.box_url = "sonarkube/sonarkube.box"
+
+    end
+
+    config.vm.define "app" do |app|
+        app.vm.network "private_network", ip: "172.17.177.48"
+        app.vm.hostname = "app"
+        app.vm.provider :virtualbox do |vb|
+            vb.customize ["modifyvm", :id, "--memory", "1024"]
+            vb.customize ["modifyvm", :id, "--cpus", "1"]
+        end
+        app.vm.synced_folder "app/", "/home/vagrant/app"
+        app.vm.provision "shell", path: "app/script.sh"
+        app.vm.box_url = "app/app.box"
+    end
 
 end

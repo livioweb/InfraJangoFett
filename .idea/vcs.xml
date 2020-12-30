@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gs-spring-boot-docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machines_ansible/app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machines_ansible/dk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/myhome" vcs="Git" />
   </component>
 </project>
