@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b31fbdf-a287-496a-a241-bf739a5edd89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/machines_ansible/HelloDevops/HelloDevops.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/HelloDevops/src/main/java/HelloApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/gitlab/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/gitlab/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/gitlab/script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/jenkis/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/jenkis/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/jenkis/script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/sonarkube/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/sonarkube/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machines_ansible/sonarkube/script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gs-spring-boot-docker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/action_provision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/action_set_name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/box_meta" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/box_meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/private_key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/synced_folders" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/app/virtualbox/synced_folders" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/action_provision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/action_set_name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/box_meta" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/box_meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/private_key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/synced_folders" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/gitlab/virtualbox/synced_folders" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/action_provision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/action_set_name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/box_meta" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/box_meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/private_key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/synced_folders" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/jenkis/virtualbox/synced_folders" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/action_provision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/action_set_name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/box_meta" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/box_meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/private_key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/synced_folders" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/.vagrant/machines/sonarkube/virtualbox/synced_folders" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines_ansible/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/Vagrantfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/doc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/ssh-keys/vagrant_id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/ssh-keys/vagrant_id_rsa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machines_ansible/ssh-keys/vagrant_id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/ssh-keys/vagrant_id_rsa.pub" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +62,8 @@
       <updated>1608821220613</updated>
       <workItem from="1608821221837" duration="15445000" />
       <workItem from="1609156167221" duration="2719000" />
-      <workItem from="1609163095433" duration="51786000" />
+      <workItem from="1609163095433" duration="52766000" />
+      <workItem from="1609772118704" duration="911000" />
     </task>
     <servers />
   </component>
