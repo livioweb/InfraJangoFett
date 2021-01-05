@@ -23,7 +23,6 @@ Vagrant.configure("2") do |config|
         apt install php7.2-cli
         chmod +x /vagrant/dk/dk
         cp /vagrant/dk/dk /bin/dk
-        bash <(curl -Ss https://my-netdata.io/kickstart.sh)
     SHELL
 
 

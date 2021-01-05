@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/app":{"guestpath":"/home/vagrant/app","hostpath":"/home/anakin/Projects/TesteDevopsPulse/machines_ansible/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/anakin/Projects/TesteDevopsPulse/machines_ansible","disabled":false,"__vagrantfile":true}}}

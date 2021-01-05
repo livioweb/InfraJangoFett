@@ -172,8 +172,27 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
       - '19999:19999'
+  influxdb:
+    image: influxdb
+    volumes:
+      - 'influxdb-storage:/var/lib/influxdb'
+    ports:
+      - '172.17.177.40:8086:8086'
+    restart: always
+
+  netdata-grabber:
+    image: terorie/netdata-influx
+    environment:
+      - NI_INFLUX_ADDR=http://172.17.177.40:8086
+      - NI_INFLUX_DB=gitlab
+      - NI_NETDATA_API=http://172.17.177.40:19999/api
+      - NI_HOST_TAG=gitlab-main
+      - NI_CHARTS=system.cpu system.net system.pgpgio
+    restart: always
+
 
 volumes:
+  influxdb-storage:
   redis-data:
     driver: local
   postgresql-data:
