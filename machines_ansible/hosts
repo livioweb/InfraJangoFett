@@ -10,3 +10,5 @@
 [app]
 172.17.177.48 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys/vagrant_id_rsa
 
+[grafana]
+172.17.177.50 ansible_user=vagrant ansible_ssh_private_key_file=./ssh-keys/vagrant_id_rsa

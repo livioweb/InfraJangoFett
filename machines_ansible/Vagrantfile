@@ -23,7 +23,6 @@ Vagrant.configure("2") do |config|
         apt install php7.2-cli
         chmod +x /vagrant/dk/dk
         cp /vagrant/dk/dk /bin/dk
-        bash <(curl -Ss https://my-netdata.io/kickstart.sh)
     SHELL
 
 
@@ -70,5 +69,17 @@ Vagrant.configure("2") do |config|
         app.vm.provision "shell", path: "app/script.sh"
         app.vm.box_url = "app/app.box"
     end
+
+    config.vm.define "grafana" do |grafana|
+            grafana.vm.network "private_network", ip: "172.17.177.50"
+            grafana.vm.hostname = "grafana"
+            grafana.vm.provider :virtualbox do |vb|
+                vb.customize ["modifyvm", :id, "--memory", "1024"]
+                vb.customize ["modifyvm", :id, "--cpus", "1"]
+            end
+            grafana.vm.synced_folder "grafana/", "/home/vagrant/grafana"
+            grafana.vm.provision "shell", path: "grafana/script.sh"
+            grafana.vm.box_url = "grafana/grafana.box"
+        end
 
 end
