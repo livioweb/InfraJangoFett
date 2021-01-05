@@ -1,9 +1,21 @@
-# Devops_Pulse
+# Devops 
+## Bem vindo ao InfraJangoFett
+
+Um pequeno projeto de infra utilizando maquinas virtuais, gerenciadas com o Vagrant.
+Esta infra conta com uma VM com o jenkis, Gitlab. Sonakube e a do App, este ultimo sera onde a aplicação rodara. 
+
+##### Links Uteis
 * https://netdata.cloud
 * https://learn.netdata.cloud/docs/
 * https://learn.netdata.cloud/docs/agent/health/notifications/telegram
 * https://www.vagrantup.com/docs/cli/snapshot
 * https://grafana.com/grafana/dashboards/10922
+
+Stressa maquina a 85%
+````
+$ stress-ng -c 0 -l 85
+````
+
 
 #### [gitlab]
 172.17.177.40:9081 
