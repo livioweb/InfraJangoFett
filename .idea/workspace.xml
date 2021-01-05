@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b31fbdf-a287-496a-a241-bf739a5edd89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/machines_ansible/grafana/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machines_ansible/grafana/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machines_ansible/grafana/script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines_ansible/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machines_ansible/gitlab/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/gitlab/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machines_ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machines_ansible/jenkis/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/jenkis/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machines_ansible/sonarkube/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/sonarkube/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machines_ansible/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/machines_ansible/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +37,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/machines_ansible/grafana" />
+      <recent name="$PROJECT_DIR$/machines_ansible/grafana/netdata" />
+      <recent name="$PROJECT_DIR$/machines_ansible" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/machines_ansible/app" />
+      <recent name="$PROJECT_DIR$/machines_ansible" />
       <recent name="$PROJECT_DIR$/machines_ansible/sonarkube" />
       <recent name="$PROJECT_DIR$/machines_ansible/gitlab" />
       <recent name="$PROJECT_DIR$/machines_ansible/jenkis" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/machines_ansible" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +75,7 @@
       <workItem from="1608821221837" duration="15445000" />
       <workItem from="1609156167221" duration="2719000" />
       <workItem from="1609163095433" duration="52766000" />
-      <workItem from="1609772118704" duration="911000" />
+      <workItem from="1609772118704" duration="10854000" />
     </task>
     <servers />
   </component>

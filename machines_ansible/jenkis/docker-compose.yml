@@ -22,6 +22,40 @@ services:
       - "5000:5000"
       - "50000:50000"
 
+  netdata:
+    image: netdata/netdata
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    volumes:
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - '19999:19999'
+  influxdb:
+    image: influxdb
+    volumes:
+      - 'influxdb-storage:/var/lib/influxdb'
+    ports:
+      - '172.17.177.42:8086:8086'
+    restart: always
+
+  netdata-grabber:
+    image: terorie/netdata-influx
+    environment:
+      - NI_INFLUX_ADDR=http://172.17.177.42:8086
+      - NI_INFLUX_DB=jenkis
+      - NI_NETDATA_API=http://172.17.177.42:19999/api
+      - NI_HOST_TAG=jenkis-main
+      - NI_CHARTS=system.cpu system.net system.pgpgio
+    restart: always
+
+volumes:
+  influxdb-storage:
 
 #jenkins-cicd  | c7e77f5a8a844c64a2a68af8edac3c38
 #jenkins-cicd  |
