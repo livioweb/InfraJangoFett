@@ -1,6 +1,20 @@
 # Devops 
 ## Bem vindo ao InfraJangoFett
+Syntax highlighted code block
 
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
 Um pequeno projeto de infra utilizando maquinas virtuais, gerenciadas com o Vagrant.
 Esta infra conta com uma VM com o jenkis, Gitlab. Sonakube e a do App, este ultimo sera onde a aplicação rodara. 
 
