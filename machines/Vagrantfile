@@ -2,6 +2,7 @@
 Vagrant.configure("2") do |config|
 
     config.vm.box = "ubuntu/bionic64"
+    config.disksize.size = '20GB'
 
     #config.ssh.insert_key = False
     #config.ssh.private_key_path = "./ssh-keys/vagrant_id_rsa"
@@ -13,6 +14,7 @@ Vagrant.configure("2") do |config|
 
 
     config.vm.provision "shell", inline: <<-SHELL
+        export DEBIAN_FRONTEND=noninteractive
         apt-get update
         apt-get install -y docker.io docker-compose
         usermod -aG docker vagrant
@@ -20,7 +22,7 @@ Vagrant.configure("2") do |config|
         sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
         systemctl restart sshd.service
         git clone https://github.com/livioweb/dk_docker_manager.git /vagrant/dk
-        apt install php7.2-cli
+        apt-get install -y php7.2-cli
         chmod +x /vagrant/dk/dk
         cp /vagrant/dk/dk /bin/dk
     SHELL
@@ -29,7 +31,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "gitlab" do |gitlab|
         gitlab.vm.box = "ubuntu/bionic64"
         gitlab.vm.provider :virtualbox do |vb|
-                vb.customize ["modifyvm", :id, "--memory", "4096"]
+                vb.customize ["modifyvm", :id, "--memory", "8096"]
                 vb.customize ["modifyvm", :id, "--cpus", "4"]
         end
         gitlab.vm.network "private_network", ip: "172.17.177.40"
@@ -66,7 +68,7 @@ Vagrant.configure("2") do |config|
             vb.customize ["modifyvm", :id, "--cpus", "1"]
         end
         app.vm.synced_folder "app/", "/home/vagrant/app"
-        app.vm.provision "shell", path: "app/script.sh"
+        app.vm.provision "shell", path: "app/Devops/script.sh"
         app.vm.box_url = "app/app.box"
     end
 
@@ -74,8 +76,8 @@ Vagrant.configure("2") do |config|
             grafana.vm.network "private_network", ip: "172.17.177.50"
             grafana.vm.hostname = "grafana"
             grafana.vm.provider :virtualbox do |vb|
-                vb.customize ["modifyvm", :id, "--memory", "1024"]
-                vb.customize ["modifyvm", :id, "--cpus", "1"]
+                vb.customize ["modifyvm", :id, "--memory", "2024"]
+                vb.customize ["modifyvm", :id, "--cpus", "2"]
             end
             grafana.vm.synced_folder "grafana/", "/home/vagrant/grafana"
             grafana.vm.provision "shell", path: "grafana/script.sh"

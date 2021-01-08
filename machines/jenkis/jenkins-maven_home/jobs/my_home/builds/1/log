@@ -1,0 +1,28 @@
+Started by GitLab push by jenkis
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my_home
+The recommended git tool is: NONE
+using credential cdc-jenkis
+Cloning the remote Git repository
+Cloning repository http://172.17.177.40:10080/jenkis/myhome.git
+ > git init /var/jenkins_home/workspace/my_home # timeout=10
+Fetching upstream changes from http://172.17.177.40:10080/jenkis/myhome.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials cdc-jenkis
+ > git fetch --tags --progress -- http://172.17.177.40:10080/jenkis/myhome.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://172.17.177.40:10080/jenkis/myhome.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 09a84403b8d26d8eec5a9eb9a8f3cfa67c5bf7f9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 09a84403b8d26d8eec5a9eb9a8f3cfa67c5bf7f9 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[my_home] $ /bin/sh -xe /tmp/jenkins4978755169983172515.sh
++ echo passei por aqui no commit push
+passei por aqui no commit push
+[Set GitHub commit status (universal)] SUCCESS on repos [] (sha:09a8440) with context:my_home
+Finished: SUCCESS

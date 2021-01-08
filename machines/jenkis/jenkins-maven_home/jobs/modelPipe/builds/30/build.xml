@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>livioweb</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.17">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>64</queueId>
+  <timestamp>1610050501472</timestamp>
+  <startTime>1610050501479</startTime>
+  <result>FAILURE</result>
+  <duration>384</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+  stages {
+
+    stage(&apos;HelloWorld&apos;) {
+      echo &apos;Hello World&apos;
+    }
+
+    stage(&apos;HelloWorld&apos;) {
+      echo &apos;Hello World&apos;
+    }
+
+    stage(&apos;git clone&apos;) {
+      checkout([$class: &apos;GitSCM&apos;, branches: [[name: &apos;*/master&apos;]],
+          userRemoteConfigs: [[url: &apos;git@172.17.177.40:10022/jenkis/myhome.git&apos;]]])
+    }
+
+  }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>58422039</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>187241282</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>233909732</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>116461480</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>14535732</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

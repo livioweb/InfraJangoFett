@@ -1,6 +1,8 @@
 version: '3'
 services:
   netdata:
+    labels:
+      - "docker.group=netdata"
     image: netdata/netdata
     cap_add:
       - SYS_PTRACE
@@ -15,6 +17,8 @@ services:
     ports:
       - '19999:19999'
   influxdb:
+    labels:
+      - "docker.group=influxdb"
     image: influxdb
     volumes:
       - 'influxdb-storage:/var/lib/influxdb'
@@ -22,6 +26,8 @@ services:
       - '172.17.177.50:8086:8086'
     restart: always
   grafana:
+    labels:
+        - "docker.group=grafana"
     image: grafana/grafana
     volumes:
       - 'grafana-storage:/var/lib/grafana'
@@ -31,10 +37,12 @@ services:
       - '3000:3000'
     restart: always
   netdata-grabber:
+    labels:
+          - "docker.group=netdata-grabber"
     image: terorie/netdata-influx
     environment:
       - NI_INFLUX_ADDR=http://172.17.177.50:8086
-      - NI_INFLUX_DB=netdata
+      - NI_INFLUX_DB=grafana_netdata
       - NI_NETDATA_API=http://172.17.177.50:19999/api
       - NI_HOST_TAG=localhost-main
       - NI_CHARTS=system.cpu system.net system.pgpgio

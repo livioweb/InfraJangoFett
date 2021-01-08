@@ -10,11 +10,11 @@ RUN rm -f /tmp/apache-maven.tar.gz
 ENV MAVEN_HOME /opt/maven
 ENV PATH $MAVEN_HOME/bin:$PATH
 
-WORKDIR /app
+WORKDIR /app/
 
 # Add POM and source
-ADD pom.xml /app/pom.xml
-ADD src /app/src
+COPY pom.xml /app/pom.xml
+COPY src /app/src
 
 # Build the app
 RUN ["mvn", "clean", "package"]

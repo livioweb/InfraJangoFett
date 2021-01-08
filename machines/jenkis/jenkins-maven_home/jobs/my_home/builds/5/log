@@ -1,0 +1,25 @@
+Started by GitLab push by jenkis
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my_home
+The recommended git tool is: NONE
+using credential cdc-jenkis
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://172.17.177.40:10080/jenkis/myhome.git # timeout=10
+Fetching upstream changes from http://172.17.177.40:10080/jenkis/myhome.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials cdc-jenkis
+ > git fetch --tags --progress -- http://172.17.177.40:10080/jenkis/myhome.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision de618a792d5ea855f03a22f8e560634a2e14eb3a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f de618a792d5ea855f03a22f8e560634a2e14eb3a # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 2d9f4ca7ef1b55fa9946337d953c37ba67824a44 # timeout=10
+[my_home] $ /bin/sh -xe /tmp/jenkins6624645062572455982.sh
++ echo passei por aqui no commit push
+passei por aqui no commit push
+[Set GitHub commit status (universal)] SUCCESS on repos [] (sha:de618a7) with context:my_home
+Finished: SUCCESS

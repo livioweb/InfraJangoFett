@@ -5,6 +5,9 @@
     <mapping directory="$PROJECT_DIR$/docker-demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gs-spring-boot-docker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machines/dk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machines/jenkis/jenkins-maven_home/caches/git-9442a3f1e7915a0dfc1efd59e9f8e6d2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machines/jenkis/jenkins-maven_home/workspace/modelPipe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machines/jenkis/jenkins-maven_home/workspace/my_home" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machines_ansible/app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machines_ansible/dk" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/myhome" vcs="Git" />

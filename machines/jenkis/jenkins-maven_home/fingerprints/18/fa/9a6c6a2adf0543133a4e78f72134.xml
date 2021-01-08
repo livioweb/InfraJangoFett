@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-01-07 13:24:34.865 UTC</timestamp>
+  <md5sum>18fa9a6c6a2adf0543133a4e78f72134</md5sum>
+  <fileName>Credential id=cdc-jenkis name=jenkis/****** (cdc-jenkis)</fileName>
+  <usages>
+    <entry>
+      <string>modelPipe</string>
+      <ranges>35,39-41,43-44</ranges>
+    </entry>
+    <entry>
+      <string>my_home</string>
+      <ranges>1-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

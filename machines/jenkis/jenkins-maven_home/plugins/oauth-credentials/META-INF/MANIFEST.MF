@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: adrien
+Build-Jdk: 1.8.0_232
+Extension-Name: oauth-credentials
+Specification-Title: This plugin provides interfaces for OAuth credent
+ ials in Jenkins.
+Implementation-Title: oauth-credentials
+Implementation-Version: 0.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: oauth-credentials
+Long-Name: OAuth Credentials plugin
+Url: https://github.com/jenkinsci/oauth-credentials-plugin/blob/master
+ /Documentation.adoc
+Minimum-Java-Version: 1.8
+Plugin-Version: 0.4
+Hudson-Version: 2.138.4
+Jenkins-Version: 2.138.4
+Plugin-Dependencies: credentials:2.3.0
+Plugin-Developers: Matt Moore:mattmoor:,Adrien Lecharpentier:alecharp:
+ ,Evaristo Gutierrez:varyvol:
+Plugin-License-Name: The Apache V2 License
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0
+Plugin-ScmUrl: https://github.com/jenkinsci/oauth-credentials-plugin
+

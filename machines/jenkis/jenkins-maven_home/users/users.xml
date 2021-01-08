@@ -6,5 +6,13 @@
       <string>livioweb</string>
       <string>livioweb_4910325012557440637</string>
     </entry>
+    <entry>
+      <string>jenkis</string>
+      <string>jenkis_1889939790634218927</string>
+    </entry>
+    <entry>
+      <string>gitlab</string>
+      <string>gitlab_8045074340006289140</string>
+    </entry>
   </idToDirectoryNameMap>
 </hudson.model.UserIdMapper>

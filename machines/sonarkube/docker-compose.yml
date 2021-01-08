@@ -1,6 +1,8 @@
 version: '3'
 services:
   sonarqubeweb:
+    labels:
+          - "docker.group=sonarkubeweb"
     image: sonarqube:latest
     hostname: sonar.pulse
     container_name: sonarqube-cicd
@@ -19,6 +21,8 @@ services:
       - /etc/hosts:/etc/hosts:ro
 
   netdata:
+    labels:
+          - "docker.group=sonarkube_netdata"
     image: netdata/netdata
     cap_add:
       - SYS_PTRACE
@@ -32,21 +36,16 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
       - '19999:19999'
-  influxdb:
-    image: influxdb
-    volumes:
-      - 'influxdb-storage:/var/lib/influxdb'
-    ports:
-      - '172.17.177.44:8086:8086'
-    restart: always
 
   netdata-grabber:
+    labels:
+          - "docker.group=netdata-grabber"
     image: terorie/netdata-influx
     environment:
-      - NI_INFLUX_ADDR=http://172.17.177.44:8086
-      - NI_INFLUX_DB=sonarkube
+      - NI_INFLUX_ADDR=http://172.17.177.50:8086
+      - NI_INFLUX_DB=sonarkube_netdata
       - NI_NETDATA_API=http://172.17.177.44:19999/api
-      - NI_HOST_TAG=gitlab-main
+      - NI_HOST_TAG=sonarkube-main
       - NI_CHARTS=system.cpu system.net system.pgpgio
     restart: always
 

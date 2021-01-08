@@ -1,6 +1,8 @@
 version: '3'
 services:
   jenkinsweb:
+    labels:
+        - "docker.group=jenkinsweb"
 #    build:
 #      context: .
     image: jenkins/jenkins:lts
@@ -23,6 +25,8 @@ services:
       - "50000:50000"
 
   netdata:
+    labels:
+        - "docker.group=netdata"
     image: netdata/netdata
     cap_add:
       - SYS_PTRACE
@@ -36,19 +40,14 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
       - '19999:19999'
-  influxdb:
-    image: influxdb
-    volumes:
-      - 'influxdb-storage:/var/lib/influxdb'
-    ports:
-      - '172.17.177.42:8086:8086'
-    restart: always
 
   netdata-grabber:
+    labels:
+      - "docker.group=jenkis_netdata_grabber"
     image: terorie/netdata-influx
     environment:
-      - NI_INFLUX_ADDR=http://172.17.177.42:8086
-      - NI_INFLUX_DB=jenkis
+      - NI_INFLUX_ADDR=http://172.17.177.50:8086
+      - NI_INFLUX_DB=jenkis_netdata
       - NI_NETDATA_API=http://172.17.177.42:19999/api
       - NI_HOST_TAG=jenkis-main
       - NI_CHARTS=system.cpu system.net system.pgpgio
