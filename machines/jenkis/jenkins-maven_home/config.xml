@@ -20,7 +20,23 @@
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
-  <clouds/>
+  <clouds>
+    <com.nirima.jenkins.plugins.docker.DockerCloud plugin="docker-plugin@1.2.1">
+      <name>docker</name>
+      <dockerApi>
+        <dockerHost plugin="docker-commons@1.17">
+          <uri>tcp://172.17.177.48:2376</uri>
+        </dockerHost>
+        <connectTimeout>60</connectTimeout>
+        <readTimeout>60</readTimeout>
+      </dockerApi>
+      <containerCap>100</containerCap>
+      <exposeDockerHost>false</exposeDockerHost>
+      <disabled>
+        <disabledByChoice>false</disabledByChoice>
+      </disabled>
+    </com.nirima.jenkins.plugins.docker.DockerCloud>
+  </clouds>
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
   <views>

@@ -1,0 +1,32 @@
+version: '3'
+services:
+  netdata:
+    labels:
+      - "docker.group=app_netdata"
+    restart: always
+    hostname: app
+    image: netdata/netdata
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    volumes:
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - '19999:19999'
+
+  netdata-grabber:
+    labels:
+      - "docker.group=app_netdata_grabber"
+    image: terorie/netdata-influx
+    environment:
+      - NI_INFLUX_ADDR=http://172.17.177.50:8086
+      - NI_INFLUX_DB=app_netdata
+      - NI_NETDATA_API=http://172.17.177.48:19999/api
+      - NI_HOST_TAG=app-main
+      - NI_CHARTS=system.cpu system.net system.pgpgio
+    restart: always

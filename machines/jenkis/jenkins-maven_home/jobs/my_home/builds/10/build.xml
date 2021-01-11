@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.13">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>2</sourceProjectId>
+              <targetProjectId>2</targetProjectId>
+              <branch>master</branch>
+              <sourceBranch>master</sourceBranch>
+              <userName>jenkis</userName>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://172.17.177.40:10080/jenkis/myhome</sourceRepoHomepage>
+              <sourceRepoName>myHome</sourceRepoName>
+              <sourceNamespace>jenkis</sourceNamespace>
+              <sourceRepoUrl>ssh://git@172.17.177.40:10022/jenkis/myhome.git</sourceRepoUrl>
+              <sourceRepoSshUrl>ssh://git@172.17.177.40:10022/jenkis/myhome.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://172.17.177.40:10080/jenkis/myhome.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>master</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>jenkis</triggeredByUser>
+              <before>9900d18c52967f79b92291102f2f9cfba38a6aea</before>
+              <after>c881ba0fb95d82650294649e5d37417988347491</after>
+              <lastCommit>c881ba0fb95d82650294649e5d37417988347491</lastCommit>
+              <targetProjectUrl>http://172.17.177.40:10080/jenkis/myhome</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@4.5.1">
+      <commit>remotes/origin/master</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@3.6.0">
+        <scheme>ssh</scheme>
+        <path>/jenkis/myhome.git</path>
+        <rawPath>/jenkis/myhome.git</rawPath>
+        <user>git</user>
+        <port>10022</port>
+        <host>172.17.177.40</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.6.0">
+              <sha1>c881ba0fb95d82650294649e5d37417988347491</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>10</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://172.17.177.40:10080/jenkis/myhome.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>144</queueId>
+  <timestamp>1610201472287</timestamp>
+  <startTime>1610201472309</startTime>
+  <result>SUCCESS</result>
+  <description>Started by GitLab push by jenkis</description>
+  <duration>1374</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/my_home</workspace>
+  <hudsonVersion>2.263.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.5.1">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>jenkis</string>
+  </culprits>
+</build>

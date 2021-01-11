@@ -1,0 +1,39 @@
+FROM java:8
+
+# Install maven to build project
+RUN wget --no-verbose -O /tmp/apache-maven.tar.gz http://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+RUN echo "516923b3955b6035ba6b0a5b031fbd8b /tmp/apache-maven.tar.gz" | md5sum -c
+RUN tar xzf /tmp/apache-maven.tar.gz -C /opt/
+RUN ln -s /opt/apache-maven-3.3.9 /opt/maven
+RUN ln -s /opt/maven/bin/mvn /usr/local/bin
+RUN rm -f /tmp/apache-maven.tar.gz
+ENV MAVEN_HOME /opt/maven
+ENV PATH $MAVEN_HOME/bin:$PATH
+
+WORKDIR /app/
+
+# Add POM and source
+COPY pom.xml /app/pom.xml
+COPY src /app/src
+
+# Build the app
+RUN ["mvn", "clean", "package"]
+
+# Run the app
+RUN bash -c 'touch /app/target/hello-world-0.0.1-SNAPSHOT.jar'
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/target/hello-world-0.0.1-SNAPSHOT.jar"]
+
+##-----------------------------------------------------------------------------------------------
+# This file is a template, and might need editing before it works on your project.
+### FROM maven:3.5-jdk-11 as BUILD
+
+# COPY . /usr/src/app
+# RUN mvn --batch-mode -f /usr/src/app/pom.xml clean package
+
+### FROM openjdk:11-jdk
+### ENV PORT 4567
+### EXPOSE 4567
+# COPY --from=BUILD /usr/src/app/target /opt/target
+### WORKDIR /opt/target
+
+### CMD ["/bin/bash", "-c", "find -type f -name '*-with-dependencies.jar' | xargs java -jar"]

@@ -10,7 +10,7 @@
         <id>autodetect</id>
         <ordinal>0</ordinal>
       </clientBuilder>
-      <ignoreCertificateErrors>false</ignoreCertificateErrors>
+      <ignoreCertificateErrors>true</ignoreCertificateErrors>
       <connectionTimeout>10</connectionTimeout>
       <readTimeout>10</readTimeout>
     </com.dabsquared.gitlabjenkins.connection.GitLabConnection>

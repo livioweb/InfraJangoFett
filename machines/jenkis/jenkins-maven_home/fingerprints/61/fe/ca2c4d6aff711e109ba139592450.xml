@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-01-09 13:16:27.877 UTC</timestamp>
+  <md5sum>61feca2c4d6aff711e109ba139592450</md5sum>
+  <fileName>Credential id=jenkis-private-key-docker name=git (jenkis-private-key-docker)</fileName>
+  <usages>
+    <entry>
+      <string>modelPipe</string>
+      <ranges>66-68</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

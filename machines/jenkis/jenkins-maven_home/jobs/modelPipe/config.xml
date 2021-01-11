@@ -17,9 +17,6 @@
     </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
       <triggers>
-        <hudson.triggers.TimerTrigger>
-          <spec></spec>
-        </hudson.triggers.TimerTrigger>
         <com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin="gitlab-plugin@1.5.13">
           <spec></spec>
           <triggerOnPush>true</triggerOnPush>
@@ -39,7 +36,7 @@
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQJrCL6x59k0iLE4fzbiHF6qrrpmK+3DU6ewxWMWhZYQU=}</secretToken>
+          <secretToken>{AQAAABAAAAAQO0fliylCVs8r2eAU7mq0Ja7Z/apH9yh3LQF1ikCBBjY=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -61,23 +58,25 @@
             steps {
                 echo &apos;Deploying....&apos;
 
-             checkout changelog: true, poll: true, scm: [
+              checkout changelog: true, poll: true, scm: [
                     $class: &apos;GitSCM&apos;,
-                    branches: [[name: &quot;origin/master&quot;]],
+                   branches: [[name: &quot;master&quot;]],
                     doGenerateSubmoduleConfigurations: false,
                     submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: &apos;jenkis-gitlab&apos;, url: &quot;git@172.17.177.40:10022/jenkis/myhome.git&quot;]]
+                    userRemoteConfigs: [[credentialsId: &apos;user_pass_gitlab&apos;, url: &quot;http://172.17.177.40:10080/jenkis/myhome.git&quot;]]
                     ]
             }
         }
         stage(&apos;Deploy&apos;) {
             steps {
-                echo &apos;Deploying....&apos;
+                echo &apos;Notify GitLab&apos;
+                updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;pending&apos;
+                echo &apos;build step goes here&apos;
+                updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;success&apos;
             }
         }
     }
-}
-</script>
+}</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>

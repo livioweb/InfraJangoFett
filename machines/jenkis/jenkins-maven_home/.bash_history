@@ -57,3 +57,36 @@ cat ~/.ssh/id_rsa.pub
 exit
 git clone ssh://git@172.17.177.40:10022/jenkis/myhome.git
 exit
+ll
+ls
+cd /home/
+ll
+ls
+git clone ssh://git@172.17.177.40:10022/jenkis/myhome.git
+cat ~/.ssh/id_rsa.pub 
+mkdir teste
+ls
+sudo -i
+sudo su
+su -
+cd /var/jenkins_home/
+ll
+ls
+
+cd /var/jenkins_home/
+ll
+ls
+pwd
+ps
+ls
+cd node
+cd nodes/
+ls
+cd ..
+ll
+la
+exit
+exit
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub 
+exit
