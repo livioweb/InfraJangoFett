@@ -40,6 +40,15 @@ stress-ng --vm-bytes \
   )k \
   --vm-keep -m 1
 ````
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+sudo systemctl restart docker
+
+
+#reboot and up docker machines
+@reboot sleep 60 && /usr/bin/docker-compose -f /home/ubuntu/docker_services/docker-compose.yml up
+@reboot sleep 60 && /usr/bin/docker run -d -p 8080:8080 my-hello-world
+
 
 #### [gitlab]
 172.17.177.40:9081 

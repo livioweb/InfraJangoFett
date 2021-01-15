@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('LS') {
             steps {
                  sh "pwd"
                  sh "ls"
@@ -12,43 +12,46 @@ pipeline {
             steps {
                 echo 'Deploying....'
 
-              checkout changelog: true, poll: true, scm: [
+                checkout changelog: true, poll: true, scm: [
                     $class: 'GitSCM',
                    branches: [[name: "master"]],
                     doGenerateSubmoduleConfigurations: false,
                     submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: 'gitlab-ssh', url: "git@172.17.177.40:10022/jenkis/myhome.git"]]
+                    userRemoteConfigs: [[credentialsId: 'user_pass_gitlab', url: "http://172.17.177.40:10080/jenkis/my_app.git"]]
                     ]
+
+                sh "ls"
             }
         }
-        stage('Deploy') {
+        stage('DockerBuild') {
             steps {
-                echo 'Deploying....'
+                sh 'echo "Oi Mundo"'
+                script {
+                    try {
+                        sh 'docker build -t my-hello-world .'
+                        sh 'docker run -d -p 8080:8080 my-hello-world'
+                    } catch (Exception e) {
+                        sh "echo $e"
+                    }
+                }
             }
         }
-    }
-}
 
 
-pipeline {
-    agent any
-
-    stages {
-        stage('Build') {
+        stage('Ansible') {
             steps {
-                 sh "pwd"
+                 sh "ansible --version"
+                 sh "ansible-playbook -i hosts app_provisioning.yml"
                  sh "ls"
             }
         }
-        stage('Clone') {
+
+        stage('Notify GitLab') {
             steps {
-                echo 'Deploying....'
-                sh "git clone git@172.17.177.40:10022/jenkis/myhome.git"
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                echo 'Notify GitLab'
+                updateGitlabCommitStatus name: 'build', state: 'pending'
+                echo 'build step goes here'
+                updateGitlabCommitStatus name: 'build', state: 'success'
             }
         }
     }
