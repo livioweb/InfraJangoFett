@@ -36,7 +36,7 @@ sudo systemctl restart docker.service
 # Install NETDATA via docker-composer
 docker-compose up -d
 sleep 13
-curl -i -XPOST http://172.17.177.50:8086/query --data-urlencode "q=CREATE DATABASE app_telegraf"
+curl -i -XPOST http://172.17.177.50:8086/query --data-urlencode "q=CREATE DATABASE app_telegraf" &&
 curl -i -XPOST http://172.17.177.50:8086/query --data-urlencode "q=CREATE DATABASE app_netdata"
 
 

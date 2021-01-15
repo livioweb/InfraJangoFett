@@ -90,3 +90,46 @@ exit
 cat ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub 
 exit
+suo -i
+sudo -i
+sudo apt install docker.io
+apt install docker.io
+exit
+docker ps
+exit
+docker ps
+usermod -aG docker vagrant
+users
+user
+users
+docker ps
+docker ps
+docker ps
+docker ps
+exit
+docker pos
+docker ps
+exit
+docker ps
+sudo docker 
+exit
+sudo docker ps
+exit
+docker ps
+exit
+docker ps
+sudo docker ps
+service docker status
+sudo service docker status
+sudo service docker start
+docker ps
+sudo docker ps
+sudo service docker status
+sudo service docker start
+sudo service docker status
+ls
+cd /home/
+ll
+ls
+curl https://raw.githubusercontent.com/docker/docker/master/contrib/check-config.sh > check-config.sh 
+exit

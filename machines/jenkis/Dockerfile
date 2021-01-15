@@ -1,13 +1,21 @@
 FROM jenkins/jenkins:lts
 USER root
 RUN apt update
-RUN apt install -y sudo ansible vim less
-#python-pip
-#RUN pip install urlparse4
-RUN apt-get remove docker docker-engine docker.io containerd runc
-RUN curl -fSsL get.docker.com | bash
+RUN apt install -y sudo ansible vim curl sudo
+RUN curl -fsSL get.docker.com | bash
+
+VOLUME /var/run/docker.sock
+RUN adduser jenkins sudo
+#RUN usermod -u 1004 jenkins
+#RUN groupmod -g 999 docker
 RUN usermod -aG docker jenkins
-RUN cp /etc/sudoers /etc/sudoers-backup
-COPY ./testeecho .
-RUN mv ./testeecho /etc/sudoers
-WORKDIR /var/jenkins_home
+RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
+
+RUN usermod -aG docker jenkins
+
+#RUN chmod 777 /var/run/docker.sock
+#RUN chown root:jenkins /var/run/docker.sock
+
+USER jenkins
+
+#WORKDIR /var/jenkins_home

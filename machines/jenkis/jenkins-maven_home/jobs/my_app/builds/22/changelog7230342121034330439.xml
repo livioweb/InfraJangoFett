@@ -1,0 +1,11 @@
+commit 3484e0bc2810978344b7af33a73afee4594fb2a6
+tree 9cd0af0b0242fb39bfe7964e275241cc1ec2bd4e
+parent 0efbed681e25cd07b4868cafd1bdde523b4bab86
+author LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-15 17:53:29 -0300
+committer LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-15 17:53:29 -0300
+
+    files to exec ansible
+
+
+:000000 100644 0000000000000000000000000000000000000000 e3e2ef7f4feb1ef3f36fed868b62425e45081522 A	app_provisioning.retry
+:100644 100644 207c6c286e6ce38dc46e4c3ad1e4237f0b01e5aa 5b9d3089102add354a79360ade0d4f3dffef3d52 M	hosts

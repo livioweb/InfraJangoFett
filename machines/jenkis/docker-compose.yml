@@ -3,9 +3,9 @@ services:
   jenkinsweb:
     labels:
         - "docker.group=jenkinsweb"
-#    build:
-#      context: .
-    image: jenkins/jenkins:lts
+    build:
+      context: .
+    #image: jenkins/jenkins:lts
     privileged: true
     hostname: jenkins.pulse
     container_name: jenkins-cicd
@@ -13,7 +13,7 @@ services:
     user: jenkins
     volumes:
       - ./jenkins-maven_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock
+      #- /var/run/docker.sock:/var/run/docker.sock
       - /etc/hosts:/etc/hosts:ro
 
     environment:
@@ -28,6 +28,7 @@ services:
     labels:
         - "docker.group=netdata"
     image: netdata/netdata
+    restart: always
     cap_add:
       - SYS_PTRACE
     security_opt:
@@ -45,6 +46,7 @@ services:
     labels:
       - "docker.group=jenkis_netdata_grabber"
     image: terorie/netdata-influx
+    restart: always
     environment:
       - NI_INFLUX_ADDR=http://172.17.177.50:8086
       - NI_INFLUX_DB=jenkis_netdata

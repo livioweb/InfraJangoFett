@@ -1,0 +1,10 @@
+commit 0efbed681e25cd07b4868cafd1bdde523b4bab86
+tree e8a1cadce7d0df5e7f7d2451dc05791bd53b3124
+parent 1cf5b58a8c3626e38d11b674160551fe81125151
+author LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-15 17:26:14 -0300
+committer LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-15 17:26:14 -0300
+
+    files to exec ansible
+
+
+:000000 100644 0000000000000000000000000000000000000000 1ade3788bb489df1a05ac4999968017ff0085830 A	app_provisioning.yml

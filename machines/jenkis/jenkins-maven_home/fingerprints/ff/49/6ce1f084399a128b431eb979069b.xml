@@ -6,7 +6,11 @@
   <usages>
     <entry>
       <string>modelPipe</string>
-      <ranges>72-77</ranges>
+      <ranges>72-78</ranges>
+    </entry>
+    <entry>
+      <string>my_app</string>
+      <ranges>6-10,18-22</ranges>
     </entry>
   </usages>
   <facets/>

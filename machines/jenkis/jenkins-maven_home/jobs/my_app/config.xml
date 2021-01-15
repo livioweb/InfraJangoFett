@@ -22,39 +22,106 @@
           <description>DOCKER_HOST
 tcp://172.17.177.48:2376</description>
           <defaultValue>tcp://172.17.177.48:2376</defaultValue>
-          <trim>false</trim>
+          <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>image</name>
+          <name>my_app</name>
           <description></description>
           <defaultValue></defaultValue>
-          <trim>false</trim>
+          <trim>true</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin="gitlab-plugin@1.5.13">
+          <spec></spec>
+          <triggerOnPush>true</triggerOnPush>
+          <triggerOnMergeRequest>true</triggerOnMergeRequest>
+          <triggerOnPipelineEvent>false</triggerOnPipelineEvent>
+          <triggerOnAcceptedMergeRequest>false</triggerOnAcceptedMergeRequest>
+          <triggerOnClosedMergeRequest>false</triggerOnClosedMergeRequest>
+          <triggerOnApprovedMergeRequest>true</triggerOnApprovedMergeRequest>
+          <triggerOpenMergeRequestOnPush>never</triggerOpenMergeRequestOnPush>
+          <triggerOnNoteRequest>true</triggerOnNoteRequest>
+          <noteRegex>Jenkins please retry a build</noteRegex>
+          <ciSkip>true</ciSkip>
+          <skipWorkInProgressMergeRequest>true</skipWorkInProgressMergeRequest>
+          <setBuildDescription>true</setBuildDescription>
+          <branchFilterType>All</branchFilterType>
+          <includeBranchesSpec></includeBranchesSpec>
+          <excludeBranchesSpec></excludeBranchesSpec>
+          <sourceBranchRegex></sourceBranchRegex>
+          <targetBranchRegex></targetBranchRegex>
+          <secretToken>{AQAAABAAAAAQCCyhDjSQ36DR6JhomiFJ9K2UbXY5WG4xIhQBDbNBMNI=}</secretToken>
+          <pendingBuildName></pendingBuildName>
+          <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
+        </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.87">
     <script>pipeline {
+    agent any
 
-        agent any    
+    stages {
+        stage(&apos;LS&apos;) {
+            steps {
+                 sh &quot;pwd&quot;
+                 sh &quot;ls&quot;
+            }
+        }
+        stage(&apos;Clone&apos;) {
+            steps {
+                echo &apos;Deploying....&apos;
 
-        stages {
-            stage(&apos;Oi Mundo Pipeline como Codigo&apos;) {
-                steps {
-                    sh &apos;echo &quot;Oi Mundo&quot;&apos;
-                    script {
-                        try {
-                            sh &apos;docker rm -f django-todolist-dev&apos;
-                        } catch (Exception e) {
-                            sh &quot;echo $e&quot;
-                        }
+                checkout changelog: true, poll: true, scm: [
+                    $class: &apos;GitSCM&apos;,
+                   branches: [[name: &quot;master&quot;]],
+                    doGenerateSubmoduleConfigurations: false,
+                    submoduleCfg: [],
+                    userRemoteConfigs: [[credentialsId: &apos;user_pass_gitlab&apos;, url: &quot;http://172.17.177.40:10080/jenkis/my_app.git&quot;]]
+                    ]
+                
+                sh &quot;ls&quot;
+            }
+        }
+        stage(&apos;DockerBuild&apos;) {
+            steps {
+                sh &apos;echo &quot;Oi Mundo&quot;&apos;
+                script {
+                    try {
+                        sh &apos;docker build -t my-hello-world .&apos;
+                        sh &apos;docker run -d -p 8080:8080 my-hello-world&apos;
+                    } catch (Exception e) {
+                        sh &quot;echo $e&quot;
                     }
                 }
             }
         }
+
+
+        stage(&apos;Ansible&apos;) {
+            steps {
+                 sh &quot;ansible --version&quot;
+                 sh &quot;ansible-playbook -i hosts app_provisioning.yml&quot;
+                 sh &quot;ansible-playbook -i hosts provisioning.yml&quot;
+                 sh &quot;ls&quot;
+            }
+        }
+
+        stage(&apos;Notify GitLab&apos;) {
+            steps {
+                echo &apos;Notify GitLab&apos;
+                updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;pending&apos;
+                echo &apos;build step goes here&apos;
+                updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;success&apos;
+            }
+        }
     }
+}
 </script>
-    <sandbox>true</sandbox>
+    <sandbox>false</sandbox>
   </definition>
   <triggers/>
   <disabled>false</disabled>
