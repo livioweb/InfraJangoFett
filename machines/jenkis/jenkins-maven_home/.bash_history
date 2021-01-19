@@ -133,3 +133,106 @@ ll
 ls
 curl https://raw.githubusercontent.com/docker/docker/master/contrib/check-config.sh > check-config.sh 
 exit
+cat ~/.ssh/id_rsa.pub 
+ll
+ls
+cd home/
+ssh vagrant@172.17.177.48
+ansible --version
+touch app_provisioning.yml
+sudo -i
+ll
+ls
+vim as
+cd ..
+ll
+ls
+ll
+ls
+user
+users
+cd var/
+ll
+ls
+ls -la
+cd jenkins_home/
+ll
+ls
+cd workspace/
+ls
+ls -la
+cd my_app
+ls
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+ansible-playbook  -i hosts app_provisioning.yml
+ansible-playbook  -i hosts app_provisioning.yml -vvvv
+ansible-playbook  -i hosts app_provisioning.yml -vvvv
+ssh -vvv -C -o ControlMaster=auto -o ControlPersist=60s -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/var/jenkins_home/.ansible/cp/ansible-ssh-%h-%p-%r 172.17.177.48 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo ~/.ansible/tmp/ansible-tmp-1610749043.9-2280300820293 `" && echo ansible-tmp-1610749043.9-2280300820293="` echo ~/.ansible/tmp/ansible-tmp-1610749043.9-2280300820293 `" ) && sleep 0'"'"''
+sudo -i
+ssh vagrant@172.17.177.48
+cat hosts 
+ansible-playbook  -i hosts app_provisioning.yml -vvvv
+ssh vagrant@172.17.177.48
+ansible-playbook -u vagrant -i hosts app_provisioning.yml -vvvv
+ansible-playbook  -i hosts app_provisioning.yml -v
+vim /etc/ansible/ansible.cfg
+sudo vim /etc/ansible/ansible.cfg
+ansible-playbook  -i hosts app_provisioning.yml -v --private-key ~/.ssh/id_rsa
+ansible-playbook  -i hosts app_provisioning.yml -vv --private-key ~/.ssh/id_rsa
+ansible-playbook  -i hosts app_provisioning.yml -vvv --private-key ~/.ssh/id_rsa
+pwd
+cd /home/
+ll
+ld
+ls -la
+cd ~/.ssh/
+ll
+pwd
+ls
+ls
+pwd
+cd ..
+ll
+ls
+cd workspace/
+ll
+ls
+cd my_app
+ls
+ansible-playbook  -i hosts app_provisioning.yml -vvv --private-key /var/jenkins_home/.ssh/id_rsa
+ansible-playbook -u vagrant  -i hosts app_provisioning.yml -vvv --private-key /var/jenkins_home/.ssh/id_rsa
+ssh vagrant@172.17.177.48
+ls
+ansible-playbook -u vagrant  -i hosts app_provisioning.yml -vvv --private-key /var/jenkins_home/.ssh/id_rsa
+cat /var/jenkins_home/.ssh/id_rsa
+cat /var/jenkins_home/.ssh/id_rsa.pub 
+ssh-copy-id vagrant@172.17.177.48 -l /var/jenkins_home/.ssh/id_rsa
+cat /var/jenkins_home/.ssh/id_rsa.pub
+ssh vagrant@172.17.177.48
+cat hosts 
+cat hosts 
+ssh vagrant@172.17.177.48 -l /var/jenkins_home/.ssh/id_rsa
+cd ~
+cd .ssh/
+ls
+cat id_rsa.pub 
+pwd
+ssh 172.17.177.48
+ssh vagrant@172.17.177.48 -i /var/jenkins_home/.ssh/id_rsa
+cd ..
+ls
+cd work
+cd workspace/
+ls
+cd my_app
+ls
+ansible-playbook -u vagrant  -i hosts app_provisioning.yml -vvv --private-key /var/jenkins_home/.ssh/id_rsa
+cat /etc/ansible/ansible.cfg 
+vim /etc/ssh/ssh_config 
+sudo vim /etc/ssh/ssh_config 
+sudo systemctl restart ssh
+systemctl restart ssh
+sudo -i
+systemctl restart ssh
+sudo -i
+exit

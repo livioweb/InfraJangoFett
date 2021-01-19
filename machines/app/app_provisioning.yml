@@ -1,5 +1,6 @@
 ---
 - hosts: app
+  user: vagrant
   pre_tasks:
     - name: Set discovered Ansible Python interpreter.
       set_fact:

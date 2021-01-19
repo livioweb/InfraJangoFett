@@ -53,7 +53,7 @@ tcp://172.17.177.48:2376</description>
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQCCyhDjSQ36DR6JhomiFJ9K2UbXY5WG4xIhQBDbNBMNI=}</secretToken>
+          <secretToken>{AQAAABAAAAAQKjdgck+52o2cWTUADD9lKPbvwCyRb5t45VvYBFUoTyU=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -65,16 +65,8 @@ tcp://172.17.177.48:2376</description>
     agent any
 
     stages {
-        stage(&apos;LS&apos;) {
-            steps {
-                 sh &quot;pwd&quot;
-                 sh &quot;ls&quot;
-            }
-        }
         stage(&apos;Clone&apos;) {
             steps {
-                echo &apos;Deploying....&apos;
-
                 checkout changelog: true, poll: true, scm: [
                     $class: &apos;GitSCM&apos;,
                    branches: [[name: &quot;master&quot;]],
@@ -82,10 +74,20 @@ tcp://172.17.177.48:2376</description>
                     submoduleCfg: [],
                     userRemoteConfigs: [[credentialsId: &apos;user_pass_gitlab&apos;, url: &quot;http://172.17.177.40:10080/jenkis/my_app.git&quot;]]
                     ]
-                
+
                 sh &quot;ls&quot;
             }
         }
+
+
+        stage(&apos;SonarKube&apos;) {
+            steps {
+                 sh &quot;pwd&quot;
+                 sh &quot;ls&quot;
+            }
+        }
+
+
         stage(&apos;DockerBuild&apos;) {
             steps {
                 sh &apos;echo &quot;Oi Mundo&quot;&apos;
@@ -101,11 +103,10 @@ tcp://172.17.177.48:2376</description>
         }
 
 
-        stage(&apos;Ansible&apos;) {
+        stage(&apos;Deployng&apos;) {
             steps {
                  sh &quot;ansible --version&quot;
-                 sh &quot;ansible-playbook -i hosts app_provisioning.yml&quot;
-                 sh &quot;ansible-playbook -i hosts provisioning.yml&quot;
+                 sh &quot;ansible-playbook -u vagrant -i hosts app_provisioning.yml&quot;
                  sh &quot;ls&quot;
             }
         }

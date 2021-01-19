@@ -1,30 +1,384 @@
-Started at Fri Jan 15 20:34:45 UTC 2021
+Started at Mon Jan 18 11:33:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:34:47 UTC 2021. 1354ms
-Started at Fri Jan 15 20:39:45 UTC 2021
+Finished at Mon Jan 18 11:33:36 UTC 2021. 1841ms
+Started at Mon Jan 18 11:38:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:39:45 UTC 2021. 47ms
-Started at Fri Jan 15 20:44:45 UTC 2021
+Finished at Mon Jan 18 11:38:34 UTC 2021. 63ms
+Started at Mon Jan 18 11:43:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:44:45 UTC 2021. 32ms
-Started at Fri Jan 15 20:49:45 UTC 2021
+Finished at Mon Jan 18 11:43:34 UTC 2021. 31ms
+Started at Mon Jan 18 11:48:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:49:45 UTC 2021. 27ms
-Started at Fri Jan 15 20:54:45 UTC 2021
+Finished at Mon Jan 18 11:48:34 UTC 2021. 37ms
+Started at Mon Jan 18 11:53:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:54:45 UTC 2021. 17ms
-Started at Fri Jan 15 20:59:45 UTC 2021
+Finished at Mon Jan 18 11:53:34 UTC 2021. 45ms
+Started at Mon Jan 18 11:58:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 20:59:45 UTC 2021. 55ms
-Started at Fri Jan 15 21:04:45 UTC 2021
+Finished at Mon Jan 18 11:58:34 UTC 2021. 28ms
+Started at Mon Jan 18 12:03:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 21:04:45 UTC 2021. 16ms
-Started at Fri Jan 15 21:09:45 UTC 2021
+Finished at Mon Jan 18 12:03:34 UTC 2021. 25ms
+Started at Mon Jan 18 12:08:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 21:09:45 UTC 2021. 36ms
-Started at Fri Jan 15 21:14:45 UTC 2021
+Finished at Mon Jan 18 12:08:34 UTC 2021. 30ms
+Started at Mon Jan 18 12:13:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 21:14:45 UTC 2021. 15ms
-Started at Fri Jan 15 21:19:45 UTC 2021
+Finished at Mon Jan 18 12:13:34 UTC 2021. 9ms
+Started at Mon Jan 18 12:18:34 UTC 2021
 Checking Docker Cloud docker
-Finished at Fri Jan 15 21:19:45 UTC 2021. 25ms
+Finished at Mon Jan 18 12:18:34 UTC 2021. 9ms
+Started at Mon Jan 18 12:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:23:34 UTC 2021. 52ms
+Started at Mon Jan 18 12:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:28:34 UTC 2021. 35ms
+Started at Mon Jan 18 12:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:33:34 UTC 2021. 38ms
+Started at Mon Jan 18 12:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:38:34 UTC 2021. 35ms
+Started at Mon Jan 18 12:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:43:34 UTC 2021. 8ms
+Started at Mon Jan 18 12:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:48:34 UTC 2021. 51ms
+Started at Mon Jan 18 12:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:53:34 UTC 2021. 39ms
+Started at Mon Jan 18 12:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 12:58:34 UTC 2021. 28ms
+Started at Mon Jan 18 13:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:03:34 UTC 2021. 35ms
+Started at Mon Jan 18 13:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:08:34 UTC 2021. 27ms
+Started at Mon Jan 18 13:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:13:34 UTC 2021. 29ms
+Started at Mon Jan 18 13:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:18:34 UTC 2021. 34ms
+Started at Mon Jan 18 13:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:23:34 UTC 2021. 32ms
+Started at Mon Jan 18 13:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:28:34 UTC 2021. 52ms
+Started at Mon Jan 18 13:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:33:34 UTC 2021. 35ms
+Started at Mon Jan 18 13:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:38:34 UTC 2021. 37ms
+Started at Mon Jan 18 13:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:43:34 UTC 2021. 24ms
+Started at Mon Jan 18 13:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:48:34 UTC 2021. 21ms
+Started at Mon Jan 18 13:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:53:34 UTC 2021. 24ms
+Started at Mon Jan 18 13:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 13:58:34 UTC 2021. 22ms
+Started at Mon Jan 18 14:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:03:34 UTC 2021. 28ms
+Started at Mon Jan 18 14:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:08:34 UTC 2021. 49ms
+Started at Mon Jan 18 14:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:13:34 UTC 2021. 16ms
+Started at Mon Jan 18 14:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:18:34 UTC 2021. 24ms
+Started at Mon Jan 18 14:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:23:34 UTC 2021. 40ms
+Started at Mon Jan 18 14:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:28:34 UTC 2021. 43ms
+Started at Mon Jan 18 14:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:33:34 UTC 2021. 31ms
+Started at Mon Jan 18 14:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:38:34 UTC 2021. 34ms
+Started at Mon Jan 18 14:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:43:34 UTC 2021. 30ms
+Started at Mon Jan 18 14:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:48:34 UTC 2021. 47ms
+Started at Mon Jan 18 14:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:53:34 UTC 2021. 26ms
+Started at Mon Jan 18 14:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 14:58:34 UTC 2021. 8ms
+Started at Mon Jan 18 15:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:03:34 UTC 2021. 46ms
+Started at Mon Jan 18 15:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:08:34 UTC 2021. 37ms
+Started at Mon Jan 18 15:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:13:34 UTC 2021. 35ms
+Started at Mon Jan 18 15:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:18:34 UTC 2021. 16ms
+Started at Mon Jan 18 15:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:23:34 UTC 2021. 26ms
+Started at Mon Jan 18 15:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:28:34 UTC 2021. 30ms
+Started at Mon Jan 18 15:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:33:34 UTC 2021. 12ms
+Started at Mon Jan 18 15:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:38:34 UTC 2021. 40ms
+Started at Mon Jan 18 15:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:43:34 UTC 2021. 32ms
+Started at Mon Jan 18 15:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:48:34 UTC 2021. 34ms
+Started at Mon Jan 18 15:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:53:34 UTC 2021. 26ms
+Started at Mon Jan 18 15:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 15:58:34 UTC 2021. 35ms
+Started at Mon Jan 18 16:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:03:34 UTC 2021. 29ms
+Started at Mon Jan 18 16:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:08:34 UTC 2021. 26ms
+Started at Mon Jan 18 16:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:13:34 UTC 2021. 25ms
+Started at Mon Jan 18 16:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:18:34 UTC 2021. 20ms
+Started at Mon Jan 18 16:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:23:34 UTC 2021. 23ms
+Started at Mon Jan 18 16:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:28:34 UTC 2021. 8ms
+Started at Mon Jan 18 16:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:33:34 UTC 2021. 23ms
+Started at Mon Jan 18 16:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:38:34 UTC 2021. 25ms
+Started at Mon Jan 18 16:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:43:34 UTC 2021. 28ms
+Started at Mon Jan 18 16:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:48:34 UTC 2021. 26ms
+Started at Mon Jan 18 16:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:53:34 UTC 2021. 11ms
+Started at Mon Jan 18 16:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 16:58:34 UTC 2021. 23ms
+Started at Mon Jan 18 17:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:03:34 UTC 2021. 27ms
+Started at Mon Jan 18 17:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:08:34 UTC 2021. 29ms
+Started at Mon Jan 18 17:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:13:34 UTC 2021. 17ms
+Started at Mon Jan 18 17:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:18:34 UTC 2021. 24ms
+Started at Mon Jan 18 17:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:23:34 UTC 2021. 29ms
+Started at Mon Jan 18 17:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:28:34 UTC 2021. 26ms
+Started at Mon Jan 18 17:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:33:34 UTC 2021. 12ms
+Started at Mon Jan 18 17:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:38:34 UTC 2021. 40ms
+Started at Mon Jan 18 17:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:43:34 UTC 2021. 27ms
+Started at Mon Jan 18 17:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:48:34 UTC 2021. 8ms
+Started at Mon Jan 18 17:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:53:34 UTC 2021. 34ms
+Started at Mon Jan 18 17:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 17:58:34 UTC 2021. 23ms
+Started at Mon Jan 18 18:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:03:34 UTC 2021. 23ms
+Started at Mon Jan 18 18:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:08:34 UTC 2021. 27ms
+Started at Mon Jan 18 18:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:13:34 UTC 2021. 15ms
+Started at Mon Jan 18 18:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:18:34 UTC 2021. 25ms
+Started at Mon Jan 18 18:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:23:34 UTC 2021. 24ms
+Started at Mon Jan 18 18:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:28:34 UTC 2021. 36ms
+Started at Mon Jan 18 18:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:33:34 UTC 2021. 32ms
+Started at Mon Jan 18 18:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:38:34 UTC 2021. 9ms
+Started at Mon Jan 18 18:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:43:34 UTC 2021. 28ms
+Started at Mon Jan 18 18:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:48:34 UTC 2021. 26ms
+Started at Mon Jan 18 18:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:53:34 UTC 2021. 21ms
+Started at Mon Jan 18 18:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 18:58:34 UTC 2021. 47ms
+Started at Mon Jan 18 19:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:03:34 UTC 2021. 30ms
+Started at Mon Jan 18 19:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:08:34 UTC 2021. 24ms
+Started at Mon Jan 18 19:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:13:34 UTC 2021. 11ms
+Started at Mon Jan 18 19:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:18:34 UTC 2021. 47ms
+Started at Mon Jan 18 19:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:23:34 UTC 2021. 21ms
+Started at Mon Jan 18 19:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:28:34 UTC 2021. 14ms
+Started at Mon Jan 18 19:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:33:34 UTC 2021. 24ms
+Started at Mon Jan 18 19:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:38:34 UTC 2021. 25ms
+Started at Mon Jan 18 19:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:43:34 UTC 2021. 14ms
+Started at Mon Jan 18 19:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:48:34 UTC 2021. 20ms
+Started at Mon Jan 18 19:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:53:34 UTC 2021. 18ms
+Started at Mon Jan 18 19:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 19:58:34 UTC 2021. 18ms
+Started at Mon Jan 18 20:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:03:34 UTC 2021. 16ms
+Started at Mon Jan 18 20:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:08:34 UTC 2021. 19ms
+Started at Mon Jan 18 20:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:13:34 UTC 2021. 8ms
+Started at Mon Jan 18 20:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:18:34 UTC 2021. 42ms
+Started at Mon Jan 18 20:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:23:34 UTC 2021. 32ms
+Started at Mon Jan 18 20:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:28:34 UTC 2021. 28ms
+Started at Mon Jan 18 20:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:33:34 UTC 2021. 23ms
+Started at Mon Jan 18 20:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:38:34 UTC 2021. 25ms
+Started at Mon Jan 18 20:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:43:34 UTC 2021. 15ms
+Started at Mon Jan 18 20:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:48:34 UTC 2021. 36ms
+Started at Mon Jan 18 20:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:53:34 UTC 2021. 9ms
+Started at Mon Jan 18 20:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 20:58:34 UTC 2021. 19ms
+Started at Mon Jan 18 21:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:03:34 UTC 2021. 21ms
+Started at Mon Jan 18 21:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:08:34 UTC 2021. 17ms
+Started at Mon Jan 18 21:13:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:13:34 UTC 2021. 5ms
+Started at Mon Jan 18 21:18:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:18:34 UTC 2021. 38ms
+Started at Mon Jan 18 21:23:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:23:34 UTC 2021. 23ms
+Started at Mon Jan 18 21:28:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:28:34 UTC 2021. 18ms
+Started at Mon Jan 18 21:33:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:33:34 UTC 2021. 31ms
+Started at Mon Jan 18 21:38:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:38:34 UTC 2021. 24ms
+Started at Mon Jan 18 21:43:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:43:34 UTC 2021. 7ms
+Started at Mon Jan 18 21:48:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:48:34 UTC 2021. 6ms
+Started at Mon Jan 18 21:53:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:53:34 UTC 2021. 5ms
+Started at Mon Jan 18 21:58:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 21:58:34 UTC 2021. 56ms
+Started at Mon Jan 18 22:03:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 22:03:34 UTC 2021. 30ms
+Started at Mon Jan 18 22:08:34 UTC 2021
+Checking Docker Cloud docker
+Finished at Mon Jan 18 22:08:34 UTC 2021. 14ms
