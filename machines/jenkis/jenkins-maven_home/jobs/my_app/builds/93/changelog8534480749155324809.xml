@@ -1,0 +1,11 @@
+commit 70c70e8046b15de1e264f569aa3b4b73a5cc0d02
+tree a6465a5a37b236b9b2a7de373d3a06334853dc26
+parent 92568c670d5aab5efd883a40bfb0093b715159e2
+author LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-22 18:51:34 -0300
+committer LIVIO RODRIGUES LOPES <livio.lopes@armateus.com.br> 2021-01-22 18:51:34 -0300
+
+    app
+
+
+:100644 100644 a49664088bf3907145cfba7a45d7a6bb980e5a09 1053b5ce4d6b98394b019a9758cd61f50426a032 M	pom.xml
+:100644 100644 5964d89de5fbe5574fb4c504aa12cc3ba9e64c8c 86814469c1510c8d0a2f7957102288d8ba39a66f M	src/main/java/br/com/devops/Application.java

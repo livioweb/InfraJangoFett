@@ -1,0 +1,39 @@
+pipeline
+{
+        environment {
+            registry = "liviorodrigues/my_app:beta"
+            registryCredential = 'docker_access'
+            dockerImage = ''
+        }
+        agent any
+
+        stages
+        {
+            stage('Delete Workspace') {
+                steps {
+                    deleteDir()
+                    git branch: 'master',
+                    credentialsId: 'user_pass_gitlab',
+                    url: 'http://172.17.177.40:10080/jenkis/my_app.git'
+                  }
+            }
+
+            stage('Cloning Git') {
+                steps {
+                    deleteDir()
+                    git branch: 'master',
+                    credentialsId: 'user_pass_gitlab',
+                    url: 'http://172.17.177.40:10080/jenkis/my_app.git'
+                  }
+            }
+
+            stage('SonarQube Analysis') {
+              steps {
+                withSonarQubeEnv('sonar') {
+                    sh "mvn clean package sonar:sonar -Dsonar.host.url=http://172.17.177.44"
+                }
+              }
+            }
+
+        }
+}

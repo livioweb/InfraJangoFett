@@ -1,0 +1,64 @@
+Started by user [8mha:////4AKf7IEmIMewRp4a2yjRopro3gQ4T/FXGOSXjmho4vIqAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgY+/dLi1CL9nMyyzPzy1CQAKHvQsMMAAAA=[0mLivioDevops
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Kfhq5smBjvL3x5ggN9X5SVDPp5znZyyCbaL6ig1hTkMAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AFtMMEAioc+9hTTbTeTWdO0Nfr9NaLkK0bkPLKd8dhPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Lp48cdIgyaXamx8Dl5xUD/ZmfYEZ9rvCxNfm1stJ1ReAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/my_app
+[8mha:////4NJiEEKi4de+iJBptHSVhdFNhPd4VDbIzM6yqs4zqIvRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4EnRrXOa60OGuWZOBgxhNJQmdbQY89XTc7Yuh35HTekVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4HJ4Y3dGT62Khpm6Ff0mEIrSW4/t6v0FQrpsWkYAkRkkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4BhgJwBk2joVgCycjppWllgmu/QP0ldl2ZHDW9GEJWooAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4KNRbQqDVXesz9UYdMJ0HJVCDH2qci7U5nIMr4P9ahqSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cloning Git)
+[8mha:////4AXByUCGYK4HdVZ7dm/1vDb3uRuc8YQW44IJJshz5iz7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] deleteDir
+[8mha:////4PaMgg/ERy9ArVsWS8E/IHF67T2VqGHIluARVgoclo3/AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] sh
++ ls -la
+total 8
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21  2021 .
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21  2021 ..
+[8mha:////4Kq3ImdBjUVsNl60nxwG/mucyEvJU3mEfhztf5Ti3I+aAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential user_pass_gitlab
+Cloning the remote Git repository
+Cloning repository http://172.17.177.40:10080/jenkis/my_app.git
+ > git init /var/jenkins_home/workspace/my_app # timeout=10
+Fetching upstream changes from http://172.17.177.40:10080/jenkis/my_app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials user_pass_gitlab
+ > git fetch --tags --progress -- http://172.17.177.40:10080/jenkis/my_app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://172.17.177.40:10080/jenkis/my_app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1cb700843f86fd2f37785227d3dd292bb820e557 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1cb700843f86fd2f37785227d3dd292bb820e557 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 1cb700843f86fd2f37785227d3dd292bb820e557 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 1cb700843f86fd2f37785227d3dd292bb820e557 # timeout=10
+[8mha:////4Ojse35fo5QNXuVzjF1/DjpA2Fu+ZbYA1DPWxDcvMBLTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ ls -la
+total 64
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 .
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 ..
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 .git
+-rw-r--r-- 1 jenkins jenkins  239 Jan 21 22:27 .gitignore
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 .idea
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 Devops
+-rw-r--r-- 1 jenkins jenkins 1347 Jan 21 22:27 Dockerfile
+-rw-r--r-- 1 jenkins jenkins  227 Jan 21 22:27 README.md
+-rw-r--r-- 1 jenkins jenkins   14 Jan 21 22:27 app_provisioning.retry
+-rw-r--r-- 1 jenkins jenkins  566 Jan 21 22:27 app_provisioning.yml
+-rw-r--r-- 1 jenkins jenkins 5356 Jan 21 22:27 hello-world.iml
+-rw-r--r-- 1 jenkins jenkins   20 Jan 21 22:27 hosts
+-rw-r--r-- 1 jenkins jenkins 1071 Jan 21 22:27 pom.xml
+-rw-r--r-- 1 jenkins jenkins 2267 Jan 21 22:27 provisioning.yml
+drwxrwxr-x 1 jenkins jenkins 4096 Jan 21 22:27 src
+[8mha:////4BKzZM34zOLLJMQ19XOKU0aNZaPl7PmE1nDGHo19VVuEAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4LI7mzsL11FsYQ2QCBsNohfpr0N2NDasueL8si0/29cKAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4F+68XDjgQaiEaOtFGudWJd8SfAcrFkmEBl+Z/GfUci6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP2cWr9L0AAAA=[0m[Pipeline] }
+[8mha:////4PLCmZM3ui1Lwx2oRPW3JjoFXH28gQNExCilXlaMunjAAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPs+4CKr0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4IJPObjqxMho7yAun1NRfmrinThXMpmjwrjTov+iDrlnAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA5X3ZWC9AAAA[0m[Pipeline] }
+[8mha:////4JFVxwu3hYg6J4CrjmD5SN70ymjtREgi3ssWyGWbyiVEAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AOf1UXy9AAAA[0m[Pipeline] // node
+[8mha:////4K8hPvAQC9V8+umEcIg1ygplaF+ZLlJ9qL8W56y47zAvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBwew2Nr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

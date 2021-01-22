@@ -1,1 +1,0 @@
-172.17.177.1 - - [05/Jan/2021:13:19:44 +0000] "GET /:8086/query?q=CREATE%20DATABASE%20sonarkube HTTP/1.1" 200 - "-" "curl/7.58.0" "AXbStA/YXyLmUXy6AAAA"

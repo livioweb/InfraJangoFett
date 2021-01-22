@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.7">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.87">
+    <parentIds>
+      <string>4</string>
+    </parentIds>
+    <id>5</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.87">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>registryCredential=docker_access</string>
+            <string>registry=liviorodrigues/my_app:beta</string>
+            <string>dockerImage=</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1611259316973</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

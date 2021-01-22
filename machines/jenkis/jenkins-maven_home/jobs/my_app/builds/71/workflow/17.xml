@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.7">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.87">
+    <parentIds>
+      <string>16</string>
+    </parentIds>
+    <id>17</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.87">
+      <arguments>
+        <entry>
+          <string>returnStdout</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>script</string>
+          <string>echo null | cut -d&apos;-&apos; -f2</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1611267735786</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

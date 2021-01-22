@@ -11,22 +11,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<name\>
+~MSle0~/xml version="1.0" encoding="UTF-8"
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1611343647,,"q!"
 :x
 |2,0,1610803800,,"x"
 :q
 |2,0,1610803679,,"q"
-:q!
-|2,0,1610749823,,"q!"
 :x!
 |2,0,1610748807,,"x!"
 
 # Search String History (newest to oldest):
+??xml version="1.0" encoding="UTF-8"?>
+|2,1,1611343532,63,"xml version=\"1.0\" encoding=\"UTF-8\"?>"
+?/ssh
+|2,1,1611321989,47,"ssh"
 ? \<name\>
 |2,1,1610803105,,"\\<name\\>"
 ? @$
@@ -41,34 +45,212 @@ $
 # Registers:
 
 # File marks:
-'0  12  8  ~/workspace/my_app/app_provisioning.yml
-|4,48,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
-'1  18  7  ~/workspace/my_app/app_provisioning.yml
-|4,49,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
-'2  18  7  ~/workspace/my_app/app_provisioning.yml
-|4,50,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
-'3  18  7  ~/workspace/my_app/app_provisioning.yml
-|4,51,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
-'4  18  7  ~/workspace/my_app/app_provisioning.yml
-|4,52,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
-'5  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,53,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
-'6  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,54,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
-'7  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,55,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
-'8  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,56,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
+'0  57  73  ~/.m2/settings.xml
+|4,48,57,73,1611343647,"~/.m2/settings.xml"
+'1  56  73  ~/.m2/settings.xml
+|4,49,56,73,1611343615,"~/.m2/settings.xml"
+'2  56  73  ~/.m2/settings.xml
+|4,50,56,73,1611343615,"~/.m2/settings.xml"
+'3  291  0  /etc/ansible/ansible.cfg
+|4,51,291,0,1611322020,"/etc/ansible/ansible.cfg"
+'4  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,52,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+'5  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,53,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+'6  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,54,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+'7  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,55,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+'8  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,56,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
 '9  19  40  ~/workspace/my_app/app_provisioning.yml
 |4,57,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
 
 # Jumplist (newest first):
+-'  57  73  ~/.m2/settings.xml
+|4,39,57,73,1611343647,"~/.m2/settings.xml"
+-'  1  0  ~/.m2/settings.xml
+|4,39,1,0,1611343627,"~/.m2/settings.xml"
+-'  56  73  ~/.m2/settings.xml
+|4,39,56,73,1611343615,"~/.m2/settings.xml"
+-'  56  73  ~/.m2/settings.xml
+|4,39,56,73,1611343615,"~/.m2/settings.xml"
+-'  1  0  ~/.m2/settings.xml
+|4,39,1,0,1611343588,"~/.m2/settings.xml"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  291  0  /etc/ansible/ansible.cfg
+|4,39,291,0,1611322020,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  166  60  /etc/ansible/ansible.cfg
+|4,39,166,60,1611321989,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  66  0  /etc/ansible/ansible.cfg
+|4,39,66,0,1611321977,"/etc/ansible/ansible.cfg"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
+-'  12  8  ~/workspace/my_app/app_provisioning.yml
+|4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
 -'  12  8  ~/workspace/my_app/app_provisioning.yml
 |4,39,12,8,1610803800,"~/workspace/my_app/app_provisioning.yml"
 -'  18  7  ~/workspace/my_app/app_provisioning.yml
 |4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
 -'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803776,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
 |4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803761,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
+-'  18  7  ~/workspace/my_app/app_provisioning.yml
+|4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
 -'  18  7  ~/workspace/my_app/app_provisioning.yml
 |4,39,18,7,1610803757,"~/workspace/my_app/app_provisioning.yml"
 -'  19  40  ~/workspace/my_app/app_provisioning.yml
@@ -78,193 +260,30 @@ $
 -'  19  40  ~/workspace/my_app/app_provisioning.yml
 |4,39,19,40,1610803687,"~/workspace/my_app/app_provisioning.yml"
 -'  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,39,19,40,1610803679,"~/workspace/my_app/app_provisioning.yml"
+|4,39,19,40,1610803687,"~/workspace/my_app/app_provisioning.yml"
 -'  19  40  ~/workspace/my_app/app_provisioning.yml
-|4,39,19,40,1610803655,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803628,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803628,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803628,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803628,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803628,"~/workspace/my_app/app_provisioning.yml"
--'  13  1  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,1,1610803474,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803432,"~/workspace/my_app/app_provisioning.yml"
--'  6  0  ~/workspace/my_app/app_provisioning.yml
-|4,39,6,0,1610803398,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803369,"~/workspace/my_app/app_provisioning.yml"
--'  4  12  ~/workspace/my_app/app_provisioning.yml
-|4,39,4,12,1610803277,"~/workspace/my_app/app_provisioning.yml"
--'  20  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  15  58  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,58,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  16  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,16,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  20  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  15  58  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,58,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  16  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,16,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  20  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  15  58  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,58,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  20  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  16  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,16,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  20  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  16  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,16,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  16  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,16,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  14  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,14,6,1610803262,"~/workspace/my_app/app_provisioning.yml"
--'  15  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,6,1610803122,"~/workspace/my_app/app_provisioning.yml"
--'  15  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,6,1610803122,"~/workspace/my_app/app_provisioning.yml"
--'  15  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,15,6,1610803122,"~/workspace/my_app/app_provisioning.yml"
--'  13  6  ~/workspace/my_app/app_provisioning.yml
-|4,39,13,6,1610803122,"~/workspace/my_app/app_provisioning.yml"
--'  26  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,26,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  25  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,25,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  24  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,24,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  23  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,23,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  26  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,26,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  25  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,25,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  24  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,24,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  23  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,23,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  26  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,26,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  25  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,25,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  24  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,24,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  23  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,23,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  26  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,26,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  25  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,25,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  24  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,24,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  23  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,23,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  26  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,26,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  25  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,25,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  24  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,24,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  23  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,23,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  20  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  19  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,19,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  22  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,22,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  21  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,21,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  20  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,20,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  19  3  ~/workspace/my_app/app_provisioning.yml
-|4,39,19,3,1610803105,"~/workspace/my_app/app_provisioning.yml"
--'  11  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,11,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  10  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,10,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  12  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,12,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  11  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,11,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  10  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,10,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  12  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,12,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  11  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,11,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  10  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,10,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  12  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,12,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
--'  11  2  ~/workspace/my_app/app_provisioning.yml
-|4,39,11,2,1610803094,"~/workspace/my_app/app_provisioning.yml"
+|4,39,19,40,1610803687,"~/workspace/my_app/app_provisioning.yml"
+-'  19  40  ~/workspace/my_app/app_provisioning.yml
+|4,39,19,40,1610803687,"~/workspace/my_app/app_provisioning.yml"
+-'  19  40  ~/workspace/my_app/app_provisioning.yml
+|4,39,19,40,1610803687,"~/workspace/my_app/app_provisioning.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.m2/settings.xml
+	*	1611343635	0
+	"	57	73
+	^	57	74
+	.	57	73
+	+	56	73
+	+	57	73
+
+> /etc/ansible/ansible.cfg
+	*	1611322018	0
+	"	291	0
+	^	291	0
+	.	59	0
+	+	59	0
 
 > ~/workspace/my_app/app_provisioning.yml
 	*	1610803799	0
@@ -309,13 +328,6 @@ $
 	*	1610795872	0
 	"	25	0
 	^	25	1
-
-> /etc/ansible/ansible.cfg
-	*	1610749822	0
-	"	66	0
-	^	66	0
-	.	59	0
-	+	59	0
 
 > /home/as
 	*	1610748813	0

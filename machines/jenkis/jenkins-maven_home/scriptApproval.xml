@@ -1,19 +1,63 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <scriptApproval plugin="script-security@1.75">
   <approvedScriptHashes>
+    <string>0106194a392b7c3cdd46a956612352befdfff4b3</string>
     <string>017d0db438428731cd600b6ebda805065433520f</string>
     <string>064bac8d7348bfb329b531c043c0517b3c15b72c</string>
+    <string>0898656ef7523e264a3f08e507d4c8fa26bbda06</string>
+    <string>08e3955bcbc06bef63ba07cb8706c7a1265d8bb9</string>
+    <string>0c401b51e1fb0614cf802e3cf16cc2323f094412</string>
+    <string>0d83335fdb46abab40396ea6e80fd763ceeb627e</string>
     <string>0de0bafd7086ace1c56d5a369304af0c73bfe79a</string>
+    <string>0eef1b63c3c2024b1a038fba73e9044355e52740</string>
+    <string>1d47e95e28e4585626e3981bd71bf9b599d4a036</string>
+    <string>217c410820c42c67be0c7db784929226fa866670</string>
+    <string>2ef832339e6a66ca60ba05f14e67ac9db1239428</string>
+    <string>3232592ab73ab0d16985c43ef1a8bb55c93a4477</string>
+    <string>39cdcea5bc2a34966e80a8eba0173df40cc685e3</string>
+    <string>39eb187615d1b3893d6b8bfcfbd53b513dd4c63e</string>
+    <string>3b530a029515ee53657ddd53bf7e8eb97b6c7a9b</string>
     <string>4414b4a3dcb01b4d98796460ea872bcc08d5c699</string>
+    <string>45ed46c8032319b5f2c037052ef74b3c4c52e812</string>
+    <string>47c859bb6d8758139cd8ffd7a6dde8ef8bbdb8d2</string>
     <string>4fb433977e6a74f1d667b80518582ba94d2657fe</string>
+    <string>503f5274aba64ac2a8cbd1e8e1dc3de519d89279</string>
+    <string>548b3cb22b83d778a72cfa5ba8707d9bf9f9ce08</string>
+    <string>57c368189681c94c3e79c2b903b5a0f039a0a92b</string>
+    <string>5e6eeb755e3de121b7d57cf46bb06e00b619fa65</string>
     <string>6002e677ac72c9b6c3725f9444d53ea11c765649</string>
     <string>60b4413d59360c5a87caee0e26a4a9e5feb4919a</string>
+    <string>612b257760393637de4ea3d360d8dab5a76f7191</string>
+    <string>65e65562ad8400255290ff859f863afb4d36bc1f</string>
+    <string>66851097eb761372fd533028a5a94907d6628ad0</string>
     <string>73bb7f1d2741bf0686cd433ca442b54d642a6b6d</string>
+    <string>7935ca24e8fdd43146c895b0bc3b5a7ff56a7fd6</string>
+    <string>816033645ee3aca0ef49041f833f06b56a54e356</string>
+    <string>827d8c09278dd37985f1aaf017fdd047df460e80</string>
     <string>858bba82c36af82367a0dbc114986a47c31af411</string>
+    <string>8674e89388766a6d34fe432b8c6b379d4a7aef98</string>
+    <string>8cb5aea39ea9e55631aacc847aff69de11dc54f2</string>
+    <string>918733ad6f2502a29786feba15a7222abcec3f20</string>
+    <string>9685bc61c027e887dfb94a990c0ba8746f6b7488</string>
     <string>9798bb7fdbefc7b8239219e7400c23f0019419ac</string>
     <string>a3410c40b4949967199a7ac24931380cf9ead55d</string>
+    <string>a39fba182adaff24f0fc283716ab58f653f1bceb</string>
     <string>a4498f52ea58864a68b89de1ffff7284efaef5ad</string>
+    <string>a75e429d13fcb7857839095407a7f165f1fb636c</string>
+    <string>a8f484a85f65db8d20260fd087cb5d75603eaf48</string>
+    <string>b3c6b5a483c90c710612ec3cbbb81d9e5002dbd5</string>
+    <string>b7c45f9b45be2fda1780890a5f48909041b7df88</string>
+    <string>b99c4fdc6b56dc03f14c48d8cf145c1b9752195a</string>
+    <string>c0360d08de5f2d0002fc1d6928d55fd639622c67</string>
+    <string>c2c0190792922d250d343d83905d4b2917105d26</string>
+    <string>c37fcaae5b10e7f89f5bc0a9813cfa185a391ff3</string>
     <string>d599cfaeca6a06fabbeef62c5e92a0a230f49eb7</string>
+    <string>d963775278b700fca793a73dfa55f26fcefd5c87</string>
+    <string>dc037846d262dc610cf32b650f3fe92cd55252ff</string>
+    <string>df8adc4c7e6eff2d6dfb2b5bcc257fec986e30b0</string>
+    <string>e8031e98cd3f2de73b6b7582fd5b6961d80c1c11</string>
+    <string>e918e44395e595ecf84b58625bf97e234d0ea703</string>
+    <string>e95ce47d5c7a5af20ebfe9bf1f39fed0c79793ee</string>
   </approvedScriptHashes>
   <approvedSignatures/>
   <aclApprovedSignatures/>

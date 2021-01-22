@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jan 22 12:55:42 UTC 2021
+http\://repo.spring.io/milestone/.error=Could not transfer artifact org.jboss.shrinkwrap.descriptors\:shrinkwrap-descriptors-bom\:pom\:2.0.0-alpha-7 from/to spring-milestones (http\://repo.spring.io/milestone)\: Access denied to\: http\://repo.spring.io/milestone/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-7/shrinkwrap-descriptors-bom-2.0.0-alpha-7.pom , ReasonPhrase\:Forbidden.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1611320142718
+http\://repo.spring.io/ext-release-local/.error=Could not transfer artifact org.jboss.shrinkwrap.descriptors\:shrinkwrap-descriptors-bom\:pom\:2.0.0-alpha-7 from/to spring-ext (http\://repo.spring.io/ext-release-local/)\: Access denied to\: http\://repo.spring.io/ext-release-local/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-7/shrinkwrap-descriptors-bom-2.0.0-alpha-7.pom , ReasonPhrase\:Forbidden.
+@default-spring-ext-http\://repo.spring.io/ext-release-local/.lastUpdated=1611320141500
+@default-spring-snapshots-http\://repo.spring.io/snapshot/.lastUpdated=1611320142149
+http\://repo.spring.io/snapshot/.error=Could not transfer artifact org.jboss.shrinkwrap.descriptors\:shrinkwrap-descriptors-bom\:pom\:2.0.0-alpha-7 from/to spring-snapshots (http\://repo.spring.io/snapshot)\: Access denied to\: http\://repo.spring.io/snapshot/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-7/shrinkwrap-descriptors-bom-2.0.0-alpha-7.pom , ReasonPhrase\:Forbidden.
+@default-spring-milestones-http\://repo.spring.io/milestone/.lastUpdated=1611320141813

@@ -11,7 +11,7 @@ echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stabl
 #RUN IN UBUNTU 18:04
 #deb https://repos.influxdata.com/ubuntu bionic stable
 
-sudo apt-get update && sudo apt-get install telegraf && apt-get -y install ansible
+sudo apt-get update && sudo apt-get install telegraf sshpass && apt-get -y install ansible
 sleep 13
 sudo rm /etc/telegraf/telegraf.conf
 sudo cp /vagrant/$FOLDER/telegraf.conf /etc/telegraf/telegraf.conf

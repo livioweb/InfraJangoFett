@@ -1,7 +1,8 @@
 FROM jenkins/jenkins:lts
 USER root
 RUN apt update
-RUN apt install -y sudo ansible vim curl sudo
+RUN apt install -y sudo ansible vim curl sudo maven
+RUN /bin/bash -c "apt-get install maven"
 RUN curl -fsSL get.docker.com | bash
 
 VOLUME /var/run/docker.sock

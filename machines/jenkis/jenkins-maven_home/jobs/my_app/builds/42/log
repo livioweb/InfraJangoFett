@@ -1,0 +1,316 @@
+Started by user [8mha:////4AKf7IEmIMewRp4a2yjRopro3gQ4T/FXGOSXjmho4vIqAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgY+/dLi1CL9nMyyzPzy1CQAKHvQsMMAAAA=[0mLivioDevops
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Kfhq5smBjvL3x5ggN9X5SVDPp5znZyyCbaL6ig1hTkMAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AFtMMEAioc+9hTTbTeTWdO0Nfr9NaLkK0bkPLKd8dhPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Lp48cdIgyaXamx8Dl5xUD/ZmfYEZ9rvCxNfm1stJ1ReAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/my_app
+[8mha:////4NJiEEKi4de+iJBptHSVhdFNhPd4VDbIzM6yqs4zqIvRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4EnRrXOa60OGuWZOBgxhNJQmdbQY89XTc7Yuh35HTekVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4HJ4Y3dGT62Khpm6Ff0mEIrSW4/t6v0FQrpsWkYAkRkkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4BhgJwBk2joVgCycjppWllgmu/QP0ldl2ZHDW9GEJWooAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4KNRbQqDVXesz9UYdMJ0HJVCDH2qci7U5nIMr4P9ahqSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cloning Git)
+[8mha:////4AXByUCGYK4HdVZ7dm/1vDb3uRuc8YQW44IJJshz5iz7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gustavoapolinario/microservices-node-example-todo-frontend.git # timeout=10
+Fetching upstream changes from https://github.com/gustavoapolinario/microservices-node-example-todo-frontend.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --tags --progress -- https://github.com/gustavoapolinario/microservices-node-example-todo-frontend.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7d9a851f024fe7d4bb7570716ce74d04fa61dbe0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7d9a851f024fe7d4bb7570716ce74d04fa61dbe0 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 7d9a851f024fe7d4bb7570716ce74d04fa61dbe0 # timeout=10
+Commit message: "ADD Jenkinsfile to tutorial"
+ > git rev-list --no-walk 7d9a851f024fe7d4bb7570716ce74d04fa61dbe0 # timeout=10
+[8mha:////4AWo+fRyZjFYtzy5e2hwqqYv7lm7C+qPJjTycVGRKGhHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4Fn9rdIeYuL7DpzeVpA9GGh/nsFuIwNlIAcZIsUlXbBdAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4IS4KfJyWTK6GsKKs+RgYpNViuDTPynaCYINA8ZDytdAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4KWwK7HvKyPyit0ZFf6hpyALoRYY5YCONeSeA4ey96S2AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Building image)
+[8mha:////4GCKLm5k5XbBMwmOK85h52avOrayhTYjSWk7XdHfn20ZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4PbIZVkqM/6+03cG4QoXgkeXSLdRrMiDlf1BR15o1i7rAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4Cof9rCVTPXk26XAOOmCkRYe5Rcf0mgc9mKRYk998AERAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] isUnix
+[8mha:////4BuejYwTWLrqygbro7s3sKTK5iz9B+zxmyK3fgzcvTdYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ docker build -t liviorodrigues/my_app:42 .
+Sending build context to Docker daemon    639kB
+Step 1/9 : FROM node
+latest: Pulling from library/node
+2587235a7635: Pulling fs layer
+953fe5c215cb: Pulling fs layer
+d4d3f270c7de: Pulling fs layer
+ed36dafe30e3: Pulling fs layer
+00e912dd434d: Pulling fs layer
+dd25ee3ea38e: Pulling fs layer
+7e835b17ced9: Pulling fs layer
+79ae84aa9e91: Pulling fs layer
+629164f2c016: Pulling fs layer
+ed36dafe30e3: Waiting
+00e912dd434d: Waiting
+dd25ee3ea38e: Waiting
+7e835b17ced9: Waiting
+79ae84aa9e91: Waiting
+629164f2c016: Waiting
+d4d3f270c7de: Verifying Checksum
+d4d3f270c7de: Download complete
+953fe5c215cb: Verifying Checksum
+953fe5c215cb: Download complete
+2587235a7635: Verifying Checksum
+2587235a7635: Download complete
+2587235a7635: Pull complete
+953fe5c215cb: Pull complete
+d4d3f270c7de: Pull complete
+dd25ee3ea38e: Verifying Checksum
+dd25ee3ea38e: Download complete
+ed36dafe30e3: Verifying Checksum
+ed36dafe30e3: Download complete
+79ae84aa9e91: Verifying Checksum
+79ae84aa9e91: Download complete
+629164f2c016: Verifying Checksum
+629164f2c016: Download complete
+7e835b17ced9: Verifying Checksum
+7e835b17ced9: Download complete
+ed36dafe30e3: Pull complete
+00e912dd434d: Verifying Checksum
+00e912dd434d: Download complete
+00e912dd434d: Pull complete
+dd25ee3ea38e: Pull complete
+7e835b17ced9: Pull complete
+79ae84aa9e91: Pull complete
+629164f2c016: Pull complete
+Digest: sha256:3a9d0636755ebcc8e24148a148b395c1608a94bb1b4a219829c9a3f54378accb
+Status: Downloaded newer image for node:latest
+ ---> d6740064592f
+Step 2/9 : RUN apt-get update && apt-get upgrade -y     && apt-get clean
+ ---> Running in 03671d7d3d8a
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org/debian-security stretch/updates InRelease [53.0 kB]
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [93.6 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [649 kB]
+Get:6 http://deb.debian.org/debian stretch Release.gpg [2410 B]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [2596 B]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7080 kB]
+Fetched 7998 kB in 2s (3280 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  imagemagick imagemagick-6-common imagemagick-6.q16
+  libmagickcore-6-arch-config libmagickcore-6-headers libmagickcore-6.q16-3
+  libmagickcore-6.q16-3-extra libmagickcore-6.q16-dev libmagickcore-dev
+  libmagickwand-6-headers libmagickwand-6.q16-3 libmagickwand-6.q16-dev
+  libmagickwand-dev
+13 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4983 kB of archives.
+After this operation, 12.3 kB of additional disk space will be used.
+Get:1 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickwand-6.q16-dev amd64 8:6.9.7.4+dfsg-11+deb9u11 [420 kB]
+Get:2 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-6.q16-dev amd64 8:6.9.7.4+dfsg-11+deb9u11 [1097 kB]
+Get:3 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-6.q16-3-extra amd64 8:6.9.7.4+dfsg-11+deb9u11 [192 kB]
+Get:4 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickwand-dev all 8:6.9.7.4+dfsg-11+deb9u11 [1246 B]
+Get:5 http://security.debian.org/debian-security stretch/updates/main amd64 imagemagick-6.q16 amd64 8:6.9.7.4+dfsg-11+deb9u11 [564 kB]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-dev all 8:6.9.7.4+dfsg-11+deb9u11 [1258 B]
+Get:7 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickwand-6-headers all 8:6.9.7.4+dfsg-11+deb9u11 [10.4 kB]
+Get:8 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-6-headers all 8:6.9.7.4+dfsg-11+deb9u11 [47.0 kB]
+Get:9 http://security.debian.org/debian-security stretch/updates/main amd64 imagemagick-6-common all 8:6.9.7.4+dfsg-11+deb9u11 [186 kB]
+Get:10 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-6.q16-3 amd64 8:6.9.7.4+dfsg-11+deb9u11 [1747 kB]
+Get:11 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickwand-6.q16-3 amd64 8:6.9.7.4+dfsg-11+deb9u11 [424 kB]
+Get:12 http://security.debian.org/debian-security stretch/updates/main amd64 libmagickcore-6-arch-config amd64 8:6.9.7.4+dfsg-11+deb9u11 [150 kB]
+Get:13 http://security.debian.org/debian-security stretch/updates/main amd64 imagemagick amd64 8:6.9.7.4+dfsg-11+deb9u11 [143 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 4983 kB in 1s (3845 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29947 files and directories currently installed.)
+Preparing to unpack .../00-libmagickwand-6.q16-dev_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickwand-6.q16-dev:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../01-libmagickcore-6.q16-dev_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickcore-6.q16-dev:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../02-libmagickcore-6.q16-3-extra_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickcore-6.q16-3-extra:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../03-libmagickwand-dev_8%3a6.9.7.4+dfsg-11+deb9u11_all.deb ...
+Unpacking libmagickwand-dev (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../04-imagemagick-6.q16_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking imagemagick-6.q16 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../05-libmagickcore-dev_8%3a6.9.7.4+dfsg-11+deb9u11_all.deb ...
+Unpacking libmagickcore-dev (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../06-libmagickwand-6-headers_8%3a6.9.7.4+dfsg-11+deb9u11_all.deb ...
+Unpacking libmagickwand-6-headers (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../07-libmagickcore-6-headers_8%3a6.9.7.4+dfsg-11+deb9u11_all.deb ...
+Unpacking libmagickcore-6-headers (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../08-imagemagick-6-common_8%3a6.9.7.4+dfsg-11+deb9u11_all.deb ...
+Unpacking imagemagick-6-common (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../09-libmagickcore-6.q16-3_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickcore-6.q16-3:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../10-libmagickwand-6.q16-3_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickwand-6.q16-3:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../11-libmagickcore-6-arch-config_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking libmagickcore-6-arch-config:amd64 (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Preparing to unpack .../12-imagemagick_8%3a6.9.7.4+dfsg-11+deb9u11_amd64.deb ...
+Unpacking imagemagick (8:6.9.7.4+dfsg-11+deb9u11) over (8:6.9.7.4+dfsg-11+deb9u10) ...
+Setting up imagemagick-6-common (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickcore-6.q16-3:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Processing triggers for mime-support (3.60) ...
+Setting up libmagickcore-6-arch-config:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Setting up libmagickwand-6.q16-3:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickcore-6-headers (8:6.9.7.4+dfsg-11+deb9u11) ...
+Processing triggers for hicolor-icon-theme (0.15-1) ...
+Setting up libmagickwand-6-headers (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up imagemagick-6.q16 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickcore-6.q16-3-extra:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up imagemagick (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickcore-6.q16-dev:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickcore-dev (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickwand-6.q16-dev:amd64 (8:6.9.7.4+dfsg-11+deb9u11) ...
+Setting up libmagickwand-dev (8:6.9.7.4+dfsg-11+deb9u11) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Removing intermediate container 03671d7d3d8a
+ ---> bb3158d72efc
+Step 3/9 : RUN mkdir /app
+ ---> Running in 9fbdd2147ff7
+Removing intermediate container 9fbdd2147ff7
+ ---> fc6265f35d62
+Step 4/9 : WORKDIR /app
+ ---> Running in f277280917f2
+Removing intermediate container f277280917f2
+ ---> 6dd37f55c207
+Step 5/9 : COPY package.json /app/
+ ---> e66cc2f49a5e
+Step 6/9 : RUN npm install --only=production
+ ---> Running in 196eeb66ce25
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m gulp-header@1.8.12: Removed event-stream from gulp-header
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+[0m
+added 353 packages, and audited 354 packages in 35s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New minor version of npm available! 7.3.0 -> 7.4.2
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v7.4.2>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@7.4.2` to update!
+npm notice 
+[0mRemoving intermediate container 196eeb66ce25
+ ---> db7f99b734c6
+Step 7/9 : COPY src /app/src
+ ---> dc32ff97b93b
+Step 8/9 : EXPOSE 3000
+ ---> Running in 536a67b886db
+Removing intermediate container 536a67b886db
+ ---> f7d7152bca6f
+Step 9/9 : CMD [ "npm", "start" ]
+ ---> Running in 24ead7564626
+Removing intermediate container 24ead7564626
+ ---> de486c84c0e7
+Successfully built de486c84c0e7
+Successfully tagged liviorodrigues/my_app:42
+[8mha:////4F1bUp/d4mljPzuE6Bm3gtDfYXrCUmVF1AFEQQdcIXPDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4JhZH8qIUE3XeCaeqaku23kA1S4ECcu4z9eqF8ZufwkDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // script
+[8mha:////4H13L+fgouyfoN1lXyOXj21raHSqxPYWd0CG+L4luE5xAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPp7sC76+AAAA[0m[Pipeline] }
+[8mha:////4CxZlgqTV9CQaOgGAmYG7xffVZ8r3dQlXP6LbHDzpo25AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZ1rrr5AK0PUAK+AAAA[0m[Pipeline] // stage
+[8mha:////4A1nKnwT+liix4yesm9hwWO02vpLJSd2Jcaq+EXuvIZ5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYQjpaBBVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBodgxlE3zOVZv4eZmdcEAAAA=[0m[Pipeline] stage
+[8mha:////4NuOoSgHWNanC9Qo/h7bbSwZLUWejiThw/pEw97KP35NAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Deploy Image)
+[8mha:////4Jz33CK4Dq+NyeL0LayzoJKtq3ujymvQQBoz8gWTkkh5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] script
+[8mha:////4Di1wYSizvHhUZRYEHHGjwZVAFfxNRij1iaDIQ3j8HD5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4ErCEalbQW/eTI5c+2nUE8aroEMBjW+JzvfI0+cWrzldAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DZyG/ddAmehr53LFSEs/BDgzH8aJqbetbeHua0C76cbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4HQ0if0Z5g8/kzN2XE9QdWeblJTncC240J+wfF7CawbyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u liviorodrigues -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/my_app@tmp/a625f521-cce5-4c20-b7ed-f662afe83e1b/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4IwyPsEoF27G1LQQGgvi/8gLKKLgNQx6Apu+SoC4vkfSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4Oki1CWqtlW2yxSxNfuVmQwoDV9ikxDKYQpv8NsaKGdJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] isUnix
+[8mha:////4Ej+8RdSt0byPU5FDsdmo0x9OmgwvgWF/SqpFZXL7fvYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] sh
++ docker tag liviorodrigues/my_app:42 liviorodrigues/my_app:42
+[8mha:////4OLUtSzPU+7CveaZECMGjZnNve+FPcjVn8CMcYrOneDnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wFPn4+LvgAAAA==[0m[Pipeline] isUnix
+[8mha:////4L4zNRYMKR6+6AYDvT3DugbRgHuuE1oxrpTPBqRKIcgGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEOrpSSvgAAAA==[0m[Pipeline] sh
++ docker push liviorodrigues/my_app:42
+The push refers to repository [docker.io/liviorodrigues/my_app]
+5ac733cc9131: Preparing
+b8a697b1d810: Preparing
+41f273dfbe63: Preparing
+b1c167bdeb93: Preparing
+27c644892b75: Preparing
+b41591a96970: Preparing
+dc1fddcdd040: Preparing
+862299899265: Preparing
+fdba6a5d9dd7: Preparing
+07700abd910e: Preparing
+edfb8ee7c346: Preparing
+aa817488a0dd: Preparing
+74825a980b6d: Preparing
+1fb0a31fe7c2: Preparing
+b41591a96970: Waiting
+dc1fddcdd040: Waiting
+862299899265: Waiting
+fdba6a5d9dd7: Waiting
+07700abd910e: Waiting
+edfb8ee7c346: Waiting
+aa817488a0dd: Waiting
+74825a980b6d: Waiting
+1fb0a31fe7c2: Waiting
+41f273dfbe63: Pushed
+b1c167bdeb93: Pushed
+5ac733cc9131: Pushed
+b41591a96970: Mounted from library/node
+dc1fddcdd040: Mounted from library/node
+862299899265: Mounted from library/node
+27c644892b75: Pushed
+fdba6a5d9dd7: Mounted from library/node
+b8a697b1d810: Pushed
+07700abd910e: Mounted from library/node
+aa817488a0dd: Mounted from library/node
+74825a980b6d: Mounted from library/node
+edfb8ee7c346: Mounted from library/node
+1fb0a31fe7c2: Mounted from library/node
+42: digest: sha256:1c17a33bdc7bf0011897de0d7c7c954d7b33b411aba72e6a3284384527e9e4f0 size: 3261
+[8mha:////4Me7+JovcYqFboaJ6JQIqrkqckJ9aBDwtqkkvGdholuyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/hHxVIvgAAAA==[0m[Pipeline] }
+[8mha:////4Mmozv1emj5RVaBl37WyabS55S9rHXnPwxorRy7yLJorAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eED0vxO9L4AAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4B8w2QgM4K+coaduNk8d6sztM1LQDiYFpo4z3gIiSdT/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigQQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwA7ZNl4r4AAAA=[0m[Pipeline] }
+[8mha:////4MdkWje2WjD3WccdfoInbUs0pMV5woQWrJ9kIqxh5jdSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigQQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8A3nA+Xr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4GhQNTpgxtWu7eXfsXdACK0TS8tRxBwf5Di+2oP4PyxEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DsZNhNr4AAAA=[0m[Pipeline] }
+[8mha:////4JkVo3+Am75OKEpdQ1ElsETJWqNppHYiVN2wu7lkiFmCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+CcDqKvgAAAA==[0m[Pipeline] // script
+[8mha:////4JPtluViFp6bb6DJl12UwJ21f0+lTFJhZv6YscRB27xeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtP2eK9va+AAAA[0m[Pipeline] }
+[8mha:////4EqnDBLUe6KEeL4C3gu9PGCQBT2G4O1TPLlamSouYnG6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP1RprUq+AAAA[0m[Pipeline] // stage
+[8mha:////4IpYAhJSPcSu6JBOxCd0lWiQ8PJY2xQjmVtJ64onRL7qAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A9vTthbBAAAA[0m[Pipeline] stage
+[8mha:////4PJEaQfuZKUFGdSU+iBYturCmSZHQpwdCRi/jFt08713AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Remove Unused docker image)
+[8mha:////4OqvzuRS4OP6ZaGvezjq4ElL4p35kFzZjMaDPrbFXmwJAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] sh
++ docker rmi liviorodrigues/my_app:42
+Untagged: liviorodrigues/my_app:42
+Untagged: liviorodrigues/my_app@sha256:1c17a33bdc7bf0011897de0d7c7c954d7b33b411aba72e6a3284384527e9e4f0
+Deleted: sha256:de486c84c0e7d1cf6b2f32ddb2ab60c6d5188cd170dd21a441f2587c6034fd4f
+Deleted: sha256:f7d7152bca6f262a035999d62922399d6993139c21de50bf067904ee7a665b3c
+Deleted: sha256:dc32ff97b93b80e2458b030d3ebb21d166acd57908ffb841aa4b35fad360ee84
+Deleted: sha256:62f386aac52a84d4220c01c1c188e538012f8d2f8e27795e4c0c650dcfbef2f8
+Deleted: sha256:db7f99b734c6c498f31b880de5d597c708ecbc26cd0f123ee9506e3701f46739
+Deleted: sha256:7a1eb123b32346f5d09134328a9d6fe2d9a6adf693bc2fb28988ebcdac1e1bb9
+Deleted: sha256:e66cc2f49a5eecd332c95f43ef21d5c50343f79c7582a37655ccd5d056039aac
+Deleted: sha256:25df00dafc78aa71c28d19b876231098cbe8ed52576c9c7e7bb4978e12a3a3d0
+Deleted: sha256:6dd37f55c2076d677a233d94a407493d5512041a4a8ae6bcf2e8a1af66061af6
+Deleted: sha256:fc6265f35d62c60c08d99daa10496e8d2b7e0499cc8aac0bcf38497cd25be9e9
+Deleted: sha256:4f26a41cc2daecc5bf0ad923e804929507571c344771b505e129eb3944f171a8
+Deleted: sha256:bb3158d72efc576346fb2a5617c6e5b343ce8fe7ab2ec95e876626f6fddcf2e9
+Deleted: sha256:1ae0aacca7ec1a8fe4d2b5b47be6774251dc8a05a0bb7cb9491b3dd5d53f4db3
+[8mha:////4IcPCurKap3/tGehP0Nu4PWZOwhWupcnzJLFeyw4/D92AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4ORJtGJ6ihYcjqPv7Xw2i3W4gvSIndDA04x/E9cJpe7sAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DcEPnho/N7s1dhQ8OcGwQ0db2jpezCOqxvTnMqREUyIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPCgem3r0AAAA=[0m[Pipeline] }
+[8mha:////4O6y2mPrYwKyDM22c0a5YtwcNocl+IZubLz/oAa2JnXvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQEJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AGHB/8W9AAAA[0m[Pipeline] // withEnv
+[8mha:////4NYnYy+0t1usqWB4vxOSGe0tmVchOEI8lhUakAWRf2q/AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0NI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAR9iYj70AAAA=[0m[Pipeline] }
+[8mha:////4Foyy+YteT+Z5FvHjkSVBuXJmj5/MBYvGhMdCZZR4bPgAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQlSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPMPyw170AAAA=[0m[Pipeline] // node
+[8mha:////4Dy9MXrI4TfI6MFkE+NtU6nxcsu3yHoIZvjp94VryPKRAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPFuXXnb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

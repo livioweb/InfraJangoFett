@@ -1,0 +1,76 @@
+2021.01.21 16:54:05 INFO  ce[][o.s.p.ProcessEntryPoint] Hard stopping process
+2021.01.21 16:54:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2021.01.21 16:54:05 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Hard stopping workers...
+2021.01.21 16:54:05 WARN  ce[][o.a.c.d.BasicDataSource] An internal object pool swallowed an Exception.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "session closed" [90067-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:617)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.engine.SessionRemote.checkClosed(SessionRemote.java:540)
+	at org.h2.engine.SessionRemote.removeServer(SessionRemote.java:470)
+	at org.h2.engine.SessionRemote.hasPendingTransaction(SessionRemote.java:170)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:437)
+	at org.apache.commons.dbcp2.DelegatingConnection.closeInternal(DelegatingConnection.java:238)
+	at org.apache.commons.dbcp2.PoolableConnection.reallyClose(PoolableConnection.java:232)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.destroyObject(PoolableConnectionFactory.java:137)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.clear(GenericObjectPool.java:648)
+	at org.apache.commons.pool2.impl.GenericObjectPool.close(GenericObjectPool.java:692)
+	at org.apache.commons.dbcp2.BasicDataSource.close(BasicDataSource.java:427)
+	at org.sonar.db.profiling.ProfiledDataSource.close(ProfiledDataSource.java:408)
+	at org.sonar.db.DefaultDatabase.stop(DefaultDatabase.java:128)
+	at org.sonar.core.platform.StartableCloseableSafeLifecyleStrategy.stop(StartableCloseableSafeLifecyleStrategy.java:50)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1048)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:803)
+	at org.sonar.core.platform.ComponentContainer.stopComponents(ComponentContainer.java:166)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.stop(ComputeEngineContainerImpl.java:270)
+	at org.sonar.ce.ComputeEngineImpl.shutdown(ComputeEngineImpl.java:72)
+	at org.sonar.ce.app.CeServer$CeMainThread.attemptShutdown(CeServer.java:184)
+	at org.sonar.ce.app.CeServer$CeMainThread.run(CeServer.java:152)
+2021.01.21 16:54:05 WARN  ce[][o.a.c.d.BasicDataSource] An internal object pool swallowed an Exception.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: "session closed" [90067-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:617)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.engine.SessionRemote.checkClosed(SessionRemote.java:540)
+	at org.h2.engine.SessionRemote.removeServer(SessionRemote.java:470)
+	at org.h2.engine.SessionRemote.hasPendingTransaction(SessionRemote.java:170)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:437)
+	at org.apache.commons.dbcp2.DelegatingConnection.closeInternal(DelegatingConnection.java:238)
+	at org.apache.commons.dbcp2.PoolableConnection.reallyClose(PoolableConnection.java:232)
+	at org.apache.commons.dbcp2.PoolableConnectionFactory.destroyObject(PoolableConnectionFactory.java:137)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.clear(GenericObjectPool.java:648)
+	at org.apache.commons.pool2.impl.GenericObjectPool.close(GenericObjectPool.java:692)
+	at org.apache.commons.dbcp2.BasicDataSource.close(BasicDataSource.java:427)
+	at org.sonar.db.profiling.ProfiledDataSource.close(ProfiledDataSource.java:408)
+	at org.sonar.db.DefaultDatabase.stop(DefaultDatabase.java:128)
+	at org.sonar.core.platform.StartableCloseableSafeLifecyleStrategy.stop(StartableCloseableSafeLifecyleStrategy.java:50)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1048)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:803)
+	at org.sonar.core.platform.ComponentContainer.stopComponents(ComponentContainer.java:166)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.stop(ComputeEngineContainerImpl.java:270)
+	at org.sonar.ce.ComputeEngineImpl.shutdown(ComputeEngineImpl.java:72)
+	at org.sonar.ce.app.CeServer$CeMainThread.attemptShutdown(CeServer.java:184)
+	at org.sonar.ce.app.CeServer$CeMainThread.run(CeServer.java:152)
+2021.01.21 16:54:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2021.01.21 16:55:10 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2021.01.21 16:55:10 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2021.01.21 16:55:10 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2021.01.21 16:55:11 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.01.21 16:55:11 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.01.21 16:55:12 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.01.21 16:55:12 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2021.01.21 16:55:13 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2021.01.21 16:55:13 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2021.01.21 16:55:15 INFO  ce[][o.s.c.t.CeWorkerImpl] worker AXcl3xi_ArjlgX4V5B7u found no pending task (including indexation task). Disabling indexation task lookup for this worker until next SonarQube restart.

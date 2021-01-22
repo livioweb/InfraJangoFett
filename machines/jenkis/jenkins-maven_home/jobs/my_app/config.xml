@@ -53,7 +53,7 @@ tcp://172.17.177.48:2376</description>
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQKjdgck+52o2cWTUADD9lKPbvwCyRb5t45VvYBFUoTyU=}</secretToken>
+          <secretToken>{AQAAABAAAAAQaVy7bC8nbbXNC8QWNz81bo/gH9JOC3OfXaRbdjI0qoE=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -61,34 +61,39 @@ tcp://172.17.177.48:2376</description>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.87">
-    <script>pipeline {
+    <script>pipeline
+{
+    environment {
+        registry = &quot;liviorodrigues/my_app:beta&quot;
+        registryCredential = &apos;docker_access&apos;
+        dockerImage = &apos;&apos;
+    }
     agent any
-
-    stages {
-        stage(&apos;Clone&apos;) {
+    
+    stages
+    {
+        stage(&apos;Clean Workspace&apos;) {
             steps {
-                checkout changelog: true, poll: true, scm: [
-                    $class: &apos;GitSCM&apos;,
-                   branches: [[name: &quot;master&quot;]],
-                    doGenerateSubmoduleConfigurations: false,
-                    submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: &apos;user_pass_gitlab&apos;, url: &quot;http://172.17.177.40:10080/jenkis/my_app.git&quot;]]
-                    ]
-
-                sh &quot;ls&quot;
-            }
+                deleteDir()
+              }
         }
-
-
-        stage(&apos;SonarKube&apos;) {
+    
+        stage(&apos;Cloning Git&apos;) {
             steps {
-                 sh &quot;pwd&quot;
-                 sh &quot;ls&quot;
-            }
+                git branch: &apos;master&apos;,
+                credentialsId: &apos;user_pass_gitlab&apos;,
+                url: &apos;http://172.17.177.40:10080/jenkis/my_app.git&apos;
+                sh &quot;ls  -la&quot;
+              }
         }
-
-
-        stage(&apos;DockerBuild&apos;) {
+    
+        stage(&apos;Unity Test&apos;) {
+            steps {
+                echo &quot;Ëxec Unity Test/Jacoco ... &quot;
+              }
+        }
+    
+        stage(&apos;Docker Remote Build&apos;) {
             steps {
                 sh &apos;echo &quot;Oi Mundo&quot;&apos;
                 script {
@@ -101,21 +106,27 @@ tcp://172.17.177.48:2376</description>
                 }
             }
         }
-
-
-        stage(&apos;Deployng&apos;) {
+    
+        stage(&apos;SonarQube Analysis&apos;) {
+          steps {
+            withSonarQubeEnv(&apos;sonar&apos;) {
+                sh &quot;mvn sonar:sonar -Dsonar.host.url=http://172.17.177.44&quot;
+            }
+          }
+        }
+    
+        stage(&apos;Deploy Data&apos;) {
             steps {
                  sh &quot;ansible --version&quot;
                  sh &quot;ansible-playbook -u vagrant -i hosts app_provisioning.yml&quot;
                  sh &quot;ls&quot;
             }
         }
-
+    
         stage(&apos;Notify GitLab&apos;) {
             steps {
                 echo &apos;Notify GitLab&apos;
                 updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;pending&apos;
-                echo &apos;build step goes here&apos;
                 updateGitlabCommitStatus name: &apos;build&apos;, state: &apos;success&apos;
             }
         }

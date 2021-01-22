@@ -236,3 +236,94 @@ sudo -i
 systemctl restart ssh
 sudo -i
 exit
+exit
+sudo -i
+exit
+cd  /var/jenkins_home/
+ll
+;s
+ls
+exit
+ls
+mvn sonar:sonar -Dsonar.host.url=http://172.17.177.44
+cd /var/jenkins_home/workspace/my_app
+l
+ls
+mvn sonar:sonar -Dsonar.host.url=http://172.17.177.44
+mvn clean package sonar:sonar -Dsonar.host.url=http://172.17.177.44
+vim /etc/ansible/ansible.cfg 
+sudo vim /etc/ansible/ansible.cfg 
+sudo /etc/ansible/ansible.cfg 
+sudo vim /etc/ansible/ansible.cfg 
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+ls
+clear
+exit
+ls
+htop
+top
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+cd /var/jenkins_home/workspace/my_app
+ll
+ls
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+cat ~/.ssh/id_rsa.pub 
+ssh vagrant@172.17.177.48
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+cat
+cat
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+exit
+ls
+cd /var/jenkins_home/workspace/my_app
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+ansible-playbook -u vagrant -i hosts app_provisioning.yml --limit @/var/jenkins_home/workspace/my_app/app_provisioning.retry
+ls
+rm app_provisioning.retry
+ansible-playbook -u vagrant -i hosts app_provisioning.yml --limit @/var/jenkins_home/workspace/my_app/app_provisioning.retry
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+sudo vim /etc/ansible/ansible.cfg 
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+sudo apt-get- install sshpass
+sudo apt-get- install sshpass
+sudo apt-get install sshpass
+ansible-playbook -u vagrant -i hosts app_provisioning.yml
+mvn build
+man mvn
+mvn clean verify
+ls
+ll
+ls
+ll
+ls
+ls
+cd ..
+ls
+cd my_app
+ls
+mvn build
+mvn -X clean verify sonar:sonar
+mvn -X clean verify sonar:sonar -Dsonar.host.url=http://172.17.177.44:9082
+mvn -X clean verify sonar:sonar -Dsonar.login=87ba16e4bbdf0df85231e89cb817cea554c2edc3  -Dsonar.host.url=http://172.17.177.44:9082
+ls
+cd ..
+cd 
+ls
+cd workspace/m
+cd workspace/
+cd my_app
+l
+ls
+java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
+exit
+cd ~/.m2/
+ls
+cd repository/
+ls
+cd ..
+vim 
+vim settings.xml
+ls
+vim settings.xml
+pwd
+exit

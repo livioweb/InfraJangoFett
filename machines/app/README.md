@@ -8,5 +8,5 @@ docker run -d -p 8080:8080 my-hello-world
 ```
 
 ``` bash
-Teste Teste 
+sh top plan jacoco
 ```
